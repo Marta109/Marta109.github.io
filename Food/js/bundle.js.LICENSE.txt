@@ -1,0 +1,11 @@
+//! Calc///////////////////////
+
+//! Modal window
+
+//! Tabs
+
+//! Timer
+
+//! conecting with json db
+
+//! using Class for Cards
