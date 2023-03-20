@@ -6,5 +6,5 @@ MARVEL Figma -> https://www.figma.com/file/xiC1B6ZlHvbiUK6FO3caxN/Marvel-DB?node
 * UBER--> https://marta109.github.io/UBER/ <br>
 UBER Figma -> https://www.figma.com/file/2pzgNlklCuAi21Y0B5hJf9/UBER_course-(Copy)?node-id=539%3A3 <br>
 * Wordpress -->  https://marta109.github.io/Wordpress/ <br>
-Figma ->https://www.figma.com/file/Py3nRz4SfIN4RNHyuWn2ra/WordPress2-(Copy)?node-id=0%3A2
+Wordpress Figma ->https://www.figma.com/file/Py3nRz4SfIN4RNHyuWn2ra/WordPress2-(Copy)?node-id=0%3A2
 
