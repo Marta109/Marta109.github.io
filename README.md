@@ -10,7 +10,7 @@ MARVEL Figma -> https://www.figma.com/file/xiC1B6ZlHvbiUK6FO3caxN/Marvel-DB?node
 
 * Nonograms--> https://marta109.github.io/Nonograms/ <br>
 * Hangman--> https://marta109.github.io/Hangman/ <br>
-* Coffee House--> https://marta109.github.io/Coffee_House/home.html <br> 
+* Coffee House--> https://marta109.github.io/Coffee_House/ <br> 
 * UBER--> https://marta109.github.io/UBER/ <br>
 UBER Figma -> https://www.figma.com/file/2pzgNlklCuAi21Y0B5hJf9/UBER_course-(Copy)?node-id=539%3A3 <br>
 * Food -->  https://marta109.github.io/Food/ <br>
