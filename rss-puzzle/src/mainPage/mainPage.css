@@ -1,0 +1,266 @@
+.menu {
+  position: relative;
+  /* background-color: #fff; */
+  /* width: 100%; */
+  height: 100px;
+  top: 0;
+  left: 0;
+  background-color: #1b263b;
+  display: flex;
+  /* flex-direction: column; */
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  padding: 0 19px;
+  border-radius: 10px;
+}
+
+.game-title {
+  text-align: center;
+  /* width: 410px; */
+  color: #ffffff;
+}
+
+.logOut {
+  width: 150px;
+  height: 50px;
+}
+
+.gameBoard {
+  background-color: #1b263b;
+  width: 90%;
+  /* height: 400px; */
+  border-radius: 10px;
+  margin: 20px auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* margin-top: 20px; */
+}
+
+.puzzlesBoard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  background-color: #1b263b;
+  min-width: 90%;
+  /* width: 90%; */
+  height: 60px;
+  border-radius: 10px;
+  margin: 20px auto;
+  border: 4px solid #646cff;
+}
+
+.puzzleItem {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  padding: 0 5px;
+  box-sizing: border-box;
+  margin: 5px;
+  background-color: #1b263b;
+}
+
+.text {
+  flex-grow: 1;
+  margin-left: 5px;
+}
+
+.shapeRight,
+.shapeLeft {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #1b263b;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 1px solid black;
+}
+
+.shapeRight {
+  right: -10px;
+  clip-path: inset(0 0 0 12px);
+}
+
+.shapeLeft {
+  clip-path: inset(0 0 0 8px);
+  left: -10px;
+  /* z-index: 25; */
+}
+
+.puzzleItem:hover {
+  color: #535bf2;
+  border-color: #646cff;
+  border-radius: 5px;
+}
+
+.gameBoardItem :hover {
+  color: #535bf2;
+  border-radius: 5px;
+  border-color: #646cff;
+}
+.noHover {
+  pointer-events: none;
+}
+
+.gameBoardItem {
+  display: flex;
+  justify-content: center;
+  /* text-align: center; */
+  align-items: center;
+  border: 1px solid black;
+  width: 100%;
+  height: 40px;
+  /* overflow: o; */
+  position: relative;
+}
+
+.gameBoardItemWord {
+  border: 1px solid black;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  position: relative;
+  font-size: large;
+  font-weight: 500;
+  text-shadow: 2px 2px 5px #535bf2;
+}
+.gameBoardItemNum {
+  /* background-color: #00377e; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+  color: #535bf2;
+  font-weight: bolder;
+  /* border-right: 5px solid #023047; */
+}
+
+.hide {
+  /* display: none !important;
+ */
+  color: #1b263b;
+}
+
+.btnDisabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.draggable {
+  cursor: grab;
+
+  &.grabbing {
+    cursor: grabbing;
+  }
+}
+
+.hint {
+  color: #535bf2;
+  font-size: large;
+  font-weight: bold;
+  background-color: #1b263b;
+  transform: scale(0.94);
+  animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+@keyframes scale {
+  100% {
+    transform: scale(1);
+  }
+}
+
+.showHint {
+  position: relative;
+  cursor: pointer;
+}
+
+.showHint span {
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  color: #535bf2;
+  text-transform: uppercase;
+  animation: flip 2s infinite;
+  animation-delay: calc(0.2s * var(--i));
+}
+
+@keyframes flip {
+  0%,
+  80% {
+    transform: rotateY(360deg);
+  }
+}
+
+.fadeOutOnGameBoard {
+  animation: fadeOutAnimation 1s ease forwards;
+}
+
+@keyframes fadeOutAnimation {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.modal_container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgb(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.modal_content {
+  background-color: #1b263b;
+  max-width: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  display: none;
+  transition: 0.5s;
+  border: 6px solid #0a1d2f;
+  border-radius: 12px;
+  box-shadow:
+    0 4px 12px rgba(0, 0, 0, 0.2),
+    0 16px 20px rgba(0, 0, 0, 0.2);
+  padding: 0 20px;
+}
+
+.modal_container.show,
+.modal_content.show {
+  display: flex;
+}
+
+.correctWord {
+  border: groove #1fad26;
+  border-radius: 5px;
+  z-index: 3;
+}
+.inCorrectWord {
+  border: groove #9d0208;
+  border-radius: 5px;
+  z-index: 3;
+}
