@@ -8,7 +8,7 @@ MARVEL Figma -> https://www.figma.com/file/xiC1B6ZlHvbiUK6FO3caxN/Marvel-DB?node
 //////////// Web & JS ////////////////////////////////<br>
 <br>
 
-* RSS-Puzzle--> https://rolling-scopes-school.github.io/marta109-JSFE2023Q4/rss-puzzle/index.html|| https://marta109.github.io//rss-puzzle/ <br>
+* RSS-Puzzle--> https://rolling-scopes-school.github.io/marta109-JSFE2023Q4/rss-puzzle/index.html || https://marta109.github.io//rss-puzzle/ <br>
 * Nonograms--> https://marta109.github.io/Nonograms/ <br>
 * Hangman--> https://marta109.github.io/Hangman/ <br>
 * Coffee House--> https://marta109.github.io/Coffee_House/home.html <br> 
