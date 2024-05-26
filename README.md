@@ -31,6 +31,12 @@ Coffee House is a project where you will need to create a website consisting of 
 2. Deploy: https://rolling-scopes-school.github.io/marta109-JSFE2023Q4/coffee-house/home.html      
 3. Screenshot:
 ![Screenshot_1](https://github.com/Marta109/Marta109.github.io/assets/71411783/8f9d3a56-eeaa-43fc-9425-d0d61286a730)
+## Bouncy 
+Bouncy is a project where you will need to create a website consisting of one page.     
+1. Deploy: https://marta109.github.io/Bouncy/     
+2. Screenshot:
+![Screenshot_3](https://github.com/Marta109/Marta109.github.io/assets/71411783/9d390600-60b3-4b6c-aae8-7ab539fa9ace)
+
 
 ///////////// React //////////////////////////////<br>
  MARVEL--> https://marta109.github.io/MARVEL/ <br>
@@ -40,13 +46,17 @@ MARVEL Figma -> https://www.figma.com/file/xiC1B6ZlHvbiUK6FO3caxN/Marvel-DB?node
 <br>
 //////////// Web & JS ////////////////////////////////<br>
 <br>
+## UBER   <br>
+1. Deploy: https://marta109.github.io/UBER/ <br>
+2. UBER Figma:  https://www.figma.com/file/2pzgNlklCuAi21Y0B5hJf9/UBER_course-(Copy)?node-id=539%3A3 <br>
+3. Screenshot: <br>
+![Screenshot_414](https://github.com/Marta109/Marta109.github.io/assets/71411783/f3148b38-68ef-4641-b874-cfbb045a45fc)
 
-* UBER--> https://marta109.github.io/UBER/ <br>
-UBER Figma -> https://www.figma.com/file/2pzgNlklCuAi21Y0B5hJf9/UBER_course-(Copy)?node-id=539%3A3 <br>
+
+
 * Food -->  https://marta109.github.io/Food/ <br>
 * Word Counter -->  https://marta109.github.io/Word_Counter/ <br>
 * Wordpress -->  https://marta109.github.io/Wordpress/ <br>
 Wordpress Figma ->https://www.figma.com/file/Py3nRz4SfIN4RNHyuWn2ra/WordPress2-(Copy)?node-id=0%3A2
 * Travel -->  https://marta109.github.io/Travel/ <br>
-* Bouncy -->  https://marta109.github.io/Bouncy/ <br>
 
