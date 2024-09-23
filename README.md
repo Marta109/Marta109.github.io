@@ -41,6 +41,12 @@ Travel is a project where you will need to create a website consisting of one pa
 1. Deploy: https://marta109.github.io/Travel/    
 2. Screenshot:
 ![Screenshot_4](https://github.com/Marta109/Marta109.github.io/assets/71411783/9f073a9a-d7c7-4e0a-9ccc-5ea1e77231f2)
+## Slider 
+Simple slider     
+1. Deploy: (https://marta109.github.io/Slider/) 
+2. Screenshot:![Screenshot_4](https://github.com/user-attachments/assets/8eb16ee9-949a-4dc5-a6b2-958e74a58564)
+
+![Screenshot_4] 
 
 ///////////// React //////////////////////////////<br>
 ## MARVEL
