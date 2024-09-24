@@ -12,6 +12,7 @@
 
 body.light {
   --bg-color: linear-gradient(100deg, #4010ff, #d2379b);
+  --bg-color: linear-gradient(to right, #4776e6, #8e54e9);
   --bg-heder: #703dcd;
   --text-color: black;
   --shadow-color: #957fef;
@@ -36,7 +37,6 @@ body.dark {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: start; */
   justify-content: space-around;
   padding: 0.5rem 2rem;
 }
@@ -198,11 +198,6 @@ header .title span {
   width: 100%;
   height: 100%;
   min-width: 500px;
-  /* min-height: 300px; */
-  /* grid-column: 2 / 17; */
-  /* width: 100%;
-  height: 100%;
-  min-width: 300px; */
 }
 
 .board-item {
@@ -214,6 +209,7 @@ header .title span {
 #player {
   font-size: 1.5rem;
   margin: 1rem;
+  color: var(--text-color);
 }
 
 .board-item:hover {
@@ -287,7 +283,6 @@ header .title span {
 
 #input-size {
   font-size: 1.5rem;
-  /* margin: 1rem; */
 }
 
 .validation {
@@ -307,6 +302,7 @@ header .title span {
     height: 80px;
   }
 }
+
 @media (max-width: 665px) {
   header {
     font-size: 2rem;
@@ -314,5 +310,19 @@ header .title span {
   .glow-on-hover {
     font-size: 1rem;
     height: 40px;
+  }
+}
+
+@media (max-width: 640px) {
+  header {
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 1.8rem;
+    height: 110px;
+  }
+}
+@media (max-width: 550px) {
+  .board-container {
+    min-width: 400px;
   }
 }
