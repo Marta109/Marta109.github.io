@@ -10,6 +10,7 @@ An interactive mini-game aimed at developing English language skill is an intera
 ![Screenshot_2](https://github.com/rolling-scopes-school/marta109-JSFE2023Q4/assets/71411783/14c75b29-a6ab-4fbd-80ef-7e456c8da5ad)
 ![Screenshot_3](https://github.com/rolling-scopes-school/marta109-JSFE2023Q4/assets/71411783/a58ab87d-e6ce-4ef8-a3e3-59181d962f5f)
 ![Screenshot_4](https://github.com/rolling-scopes-school/marta109-JSFE2023Q4/assets/71411783/6b46d10f-088b-4195-a06b-b75aa325b68f)
+![Screenshot_1](https://github.com/user-attachments/assets/a85591b9-60fd-4512-aae4-614bbbae538f)
 
 ## Nonograms 
 Nonograms is a puzzle game to reveal a hidden picture by looking at the number clues. The clues are given at the top and left side of the grid. Each number in these clue defines a block of black cell. A number indicates an unbroken line of black cells, and they are in the same order as the lines. These puzzles are often black and white—describing a binary image—but they can also be colored.
