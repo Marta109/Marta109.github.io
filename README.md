@@ -37,7 +37,11 @@ Coffee House is a project where you will need to create a website consisting of 
 1.Task: https://github.com/rolling-scopes-school/tasks/blob/master/tasks/coffee-house/coffee-house.md    
 2. Deploy: https://rolling-scopes-school.github.io/marta109-JSFE2023Q4/coffee-house/home.html      
 3. Screenshot:
-![Screenshot_1](https://github.com/Marta109/Marta109.github.io/assets/71411783/8f9d3a56-eeaa-43fc-9425-d0d61286a730)
+![Screenshot_2](https://github.com/user-attachments/assets/6bc884fe-04b7-4bf1-a73a-fa0eb2844cf2)
+![Screenshot_1](https://github.com/user-attachments/assets/09339ed7-856e-4a36-a6d0-0bbb65eacf44)
+![Screenshot_3](https://github.com/user-attachments/assets/06eef6e9-0f52-451e-a3c7-6b121f73bf52)
+
+
 ## Bouncy 
 Bouncy is a project where you will need to create a website consisting of one page.     
 1. Deploy: https://marta109.github.io/Bouncy/     
