@@ -303,7 +303,7 @@ header .title span {
   }
 }
 
-@media (max-width: 665px) {
+@media (max-width: 685px) {
   header {
     font-size: 2rem;
   }
@@ -321,8 +321,24 @@ header .title span {
     height: 110px;
   }
 }
+
 @media (max-width: 550px) {
   .board-container {
     min-width: 400px;
+  }
+  #toggle-sound,
+  #toggle-theme {
+    width: 3rem;
+  }
+}
+
+@media (max-width: 440px) {
+  .board-container {
+    min-width: 300px;
+  }
+}
+@media (max-width: 399px) {
+  header {
+    height: 140px;
   }
 }
