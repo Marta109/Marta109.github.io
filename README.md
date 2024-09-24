@@ -27,7 +27,9 @@ Hangman is a classic word game in which you must find the correct answer by gues
 ## Tic-Tac-Toe
 Implementation of the game tic-tac-toe with the ability to change the field size from 3 to 20
 1. Deploy: (https://marta109.github.io/Tic-Tac-Toe/) 
-2. Screenshot:!)
+2. Screenshot:
+![Screenshot_3](https://github.com/user-attachments/assets/75ee32ec-55d2-43c8-ba10-9583cd5c7dca)
+![Screenshot_2](https://github.com/user-attachments/assets/81b25640-b833-4008-b8d3-2eaa48c552fd)
 
 ## Coffee house 
 Coffee House is a project where you will need to create a website consisting of two pages, make it responsive, and add interactivity.   
