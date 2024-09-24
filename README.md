@@ -22,8 +22,14 @@ Nonograms is a puzzle game to reveal a hidden picture by looking at the number c
 Hangman is a classic word game in which you must find the correct answer by guessing letters one at a time.
 1.Task: https://github.com/rolling-scopes-school/tasks/tree/master/stage1/tasks/hangman    
 2. Deploy: https://rolling-scopes-school.github.io/marta109-JSFE2023Q4/hangman/index.html    
-3. Screenshot:
+3. Screenshot:![Screenshot_2](https://github.com/user-attachments/assets/94096514-54d1-4157-8483-406aff37cb35)
+
 ![Screenshot_1](https://github.com/rolling-scopes-school/marta109-JSFE2023Q4/assets/71411783/4b80f1a1-b46e-43cd-b4e9-e5bc52407c54)
+
+## Tic-Tac-Toe
+Implementation of the game tic-tac-toe with the ability to change the field size from 3 to 20
+1. Deploy: (https://marta109.github.io/Tic-Tac-Toe/) 
+2. Screenshot:!)
 
 ## Coffee house 
 Coffee House is a project where you will need to create a website consisting of two pages, make it responsive, and add interactivity.   
