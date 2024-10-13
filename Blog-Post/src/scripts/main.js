@@ -60,7 +60,7 @@
 function createRegistrationLayout() {
   const container = UI.createElement('div', { class: 'container-root' }, [
     UI.createElement('header', { class: 'header' }, [
-      UI.createElement('a', { href: 'src/pages/registration.html' }, 'Sign in'),
+      UI.createElement('a', { href: 'src/pages/registration.html' }, 'Sign up'),
       UI.createElement('a', { href: 'src/pages/home.html' }, 'Home'),
     ]),
     UI.createElement('div', { class: 'form-wrapper' }, [
