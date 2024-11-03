@@ -1,0 +1,148 @@
+@import  '_token.sass'
+
+*
+    font-family: $font
+    transition: all 0.2s linear
+
+body
+    background-color: $color_Main_bg
+    margin: 0
+
+.container-root
+    display: flex
+    flex-direction: column
+    min-height: 100vh
+
+.header
+    display: flex
+    justify-content: flex-end
+    align-items: center
+    gap: 30px
+    background-color: $colorMain
+    padding: $padding-medium
+    min-height: 60px
+    border-radius: $border-radius
+    box-shadow: 0 0 20px $color-shedow
+    background: url(https://i.pinimg.com/originals/1a/ba/73/1aba73d7d0cf7299158082fab3d8bfa3.jpg) center center/cover no-repeat
+
+.form-wrapper
+    display: flex
+    flex: 1
+    justify-content: center
+    align-items: center
+    height: calc(100vh - 40px)
+
+.login-container .card
+    border-radius: 1rem
+    box-shadow: 0 0 20px $color-shedow
+    .img-fluid
+        box-shadow: 0 0 20px $color-shedow
+        border-radius: 1rem
+        height: 100%
+        width: 100%
+    p
+        color: $color_Main_bg
+    a
+        margin-left: 10px
+        font-weight: 500
+        color: $color-shedow
+
+.card-registration
+    box-shadow: 0 0 20px $color-shedow
+
+form
+    display: flex
+    flex-direction: column
+    align-items: center
+
+    input
+        width: 100%
+        margin-bottom: 10px
+        padding: $padding-small
+        border: 1px solid $grayBorder
+        border-radius: $border-radius
+        box-sizing: border-box
+
+    select
+        width: 100%
+        margin-bottom: 10px
+        padding: $padding-small
+
+.main-section
+    display: flex
+    flex: 1
+    padding: $padding-medium
+    .sidebar
+        width: 200px
+        height: 100%
+        background-color: $color_Main_bg
+        box-shadow: 0 0 10px $boxShedow
+        border-radius: $border-radius
+        box-shadow: 0 0 10px $color-title
+    .container
+        width: 100%
+        padding: 0
+        .card
+            padding: $padding-medium
+            margin-bottom: 10px
+            text-align: center
+            background: $color_Section_bg
+            border-radius: $border-radius
+
+            img
+                width: 150px
+                height: 150px
+                object-fit: cover
+                box-shadow: 0 0 10px $color-title
+
+.section
+    box-sizing: border-box
+    gap: 10px
+    display: flex
+    flex-direction: column
+    margin-left: 20px
+
+.box
+    box-sizing: border-box
+    box-shadow: 0 0 10px $boxShedow
+    flex: 1
+    // min-height: 300px
+    margin-bottom: 10px
+    img
+        height: 100%
+        object-fit: cover
+        box-shadow: 0 0 10px $color-title
+        border-radius: $border-radius
+    .card
+        background: $color_Section_bg
+        box-shadow: 0 0 20px $color-shedow
+
+    .card-descr
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        flex-wrap: wrap
+        color: $color-title
+        .card-title
+            font-size: 2rem
+            font-weight: bold
+
+.footer
+    margin-top: 10px
+    box-shadow: 0 0 20px $color-shedow
+    border-radius: $border-radius
+    text-align: center
+    background: $colorMain
+    padding: $padding-medium
+
+@media (max-width: 600px)
+    .main-section
+        .sidebar
+            max-width: 150px
+        .container .card img
+            width: 100px
+            height: 100px
+        .card-body
+            padding: 5px
+        .card
+            padding: 10px
