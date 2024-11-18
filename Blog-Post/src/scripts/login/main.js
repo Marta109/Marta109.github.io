@@ -1,22 +1,12 @@
-import { createFooter, updateFooter } from '../footer/footer.js';
-import toggleThem from '../themeToggle.js';
+import createHeader from '../header/createHeader.js';
+import { createFooter, updateFooter } from '../footer/createFooter.js';
+import { toggleThem } from '../header/headerBtnHandlers.js';
 
 function createLoginLayout() {
   const container = UI.createElement('div', { class: 'container-root' }, [
-    UI.createElement('header', { class: 'header' }, [
-      UI.createElement(
-        'a',
-        { class: 'btn btn-dark', href: 'src/pages/registration.html' },
-        'Sign up',
-      ),
-      UI.createElement(
-        'a',
-        { class: 'btn btn-dark', href: 'src/pages/home.html' },
-        'Home',
-      ),
-      UI.createElement('button', { class: 'toggle-theme btn btn-dark' }, [
-        UI.createElement('i', { class: 'fas fa-moon' }),
-      ]),
+    createHeader([
+      { name: 'Sign Up', href: 'src/pages/registration.html' },
+      { name: 'Home', href: 'src/pages/home.html' },
     ]),
     UI.createElement('div', { class: 'form-wrapper vh-100 login-container' }, [
       UI.createElement('div', { class: 'container py-5 h-100' }, [
@@ -84,6 +74,7 @@ function createLoginLayout() {
                                   type: 'text',
                                   class: 'form-control form-control-lg',
                                   placeholder: 'username',
+                                  name: 'username',
                                   id: 'formUserName',
                                   required: true,
                                 }),
@@ -108,6 +99,7 @@ function createLoginLayout() {
                                   type: 'password',
                                   class: 'form-control form-control-lg',
                                   placeholder: 'password',
+                                  name: 'password',
                                   id: 'formPassword',
                                   required: true,
                                 }),
@@ -160,17 +152,8 @@ function createLoginLayout() {
 }
 
 setInterval(() => {
-  updateFooter;
+  updateFooter();
 }, 1000);
 
 createLoginLayout();
 toggleThem();
-
-// const toggleBtn = document.querySelector('.toggle-theme');
-// const themeIcon = toggleBtn.querySelector('i');
-
-// toggleBtn.addEventListener('click', () => {
-//   document.body.classList.toggle('dark-theme');
-//   themeIcon.classList =
-//     themeIcon.classList[1] === 'fa-sun' ? 'fas fa-moon' : 'fas fa-sun';
-// });

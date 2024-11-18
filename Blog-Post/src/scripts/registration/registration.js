@@ -1,23 +1,14 @@
-import { createFooter, updateFooter } from '../footer/footer.js';
-import toggleThem from '../themeToggle.js';
+import createHeader from '../header/createHeader.js';
+import { createFooter, updateFooter } from '../footer/createFooter.js';
+import { toggleThem } from '../header/headerBtnHandlers.js';
 
 function createRegistrationLayout() {
   const container = UI.createElement('div', { class: 'container-root' }, [
-    UI.createElement('header', { class: 'header' }, [
-      UI.createElement(
-        'a',
-        { class: 'btn btn-dark', href: '../../index.html' },
-        'Sign In',
-      ),
-      UI.createElement(
-        'a',
-        { class: 'btn btn-dark', href: './home.html' },
-        'Home',
-      ),
-      UI.createElement('button', { class: 'toggle-theme btn btn-dark' }, [
-        UI.createElement('i', { class: 'fas fa-moon' }),
-      ]),
+    createHeader([
+      { name: 'Sign In', href: '../../index.html' },
+      { name: 'Home', href: './home.html' },
     ]),
+
     UI.createElement('section', { class: 'registration-form' }, [
       UI.createElement('div', { class: 'container py-5 h-100' }, [
         UI.createElement(
@@ -360,7 +351,7 @@ function createRegistrationLayout() {
 }
 
 setInterval(() => {
-  updateFooter;
+  updateFooter();
 }, 1000);
 
 createRegistrationLayout();

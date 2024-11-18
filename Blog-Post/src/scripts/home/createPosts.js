@@ -1,9 +1,14 @@
 import { posts } from '../../data/data.js';
 
 const createPosts = () => {
-  let section = [];
-  posts.forEach((el) => {
-    el = UI.createElement('section', { class: 'box' }, [
+  const newPost = JSON.parse(sessionStorage.getItem('newPost')) ;
+
+  if (newPost) {
+    posts.unshift(...newPost);
+    // sessionStorage.removeItem('newPost');
+  }
+  return posts.map((el) => {
+    return (el = UI.createElement('section', { class: 'box' }, [
       UI.createElement('div', { class: 'card' }, [
         UI.createElement('div', { class: 'card-body' }, [
           UI.createElement('div', { class: 'card-descr' }, [
@@ -22,11 +27,8 @@ const createPosts = () => {
           alt: el.title,
         }),
       ]),
-    ]);
-    section.push(el);
+    ]));
   });
-
-  return section;
 };
 
 export default createPosts;

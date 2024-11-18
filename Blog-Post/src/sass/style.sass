@@ -1,4 +1,6 @@
 @import  '_token.sass'
+@import  '_notification.sass'
+@import  '_newPost.sass'
 
 *
     font-family: $font
@@ -24,6 +26,9 @@ body
     border-radius: $border-radius
     box-shadow: 0 0 20px $color-shedow
     background: url(https://i.pinimg.com/originals/1a/ba/73/1aba73d7d0cf7299158082fab3d8bfa3.jpg) center center/cover no-repeat
+    .avatar-small
+        width: 80px
+        height: 80px
 
 .form-wrapper
     display: flex
@@ -123,9 +128,11 @@ form
         justify-content: space-between
         flex-wrap: wrap
         color: $color-title
+        text-transform: capitalize
         .card-title
             font-size: 2rem
             font-weight: bold
+            text-transform: capitalize
 
 .footer
     margin-top: 10px
