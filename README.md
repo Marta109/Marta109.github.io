@@ -58,21 +58,11 @@ Simple slider with the ability to scroll using keys or mouse.
 2. Screenshot:![Screenshot_4](https://github.com/user-attachments/assets/8eb16ee9-949a-4dc5-a6b2-958e74a58564)
 
 ///////////// React //////////////////////////////<br>
-## MARVEL
-1. Deploy: https://marta109.github.io/MARVEL/ <br>
-2. MARVEL Figma -> https://www.figma.com/file/xiC1B6ZlHvbiUK6FO3caxN/Marvel-DB?node-id=0%3A1&t=u9frROnou1uDf05v-0 <br>
-3. Screenshot:
-   ![Screenshot_5](https://github.com/Marta109/Marta109.github.io/assets/71411783/337a8ac2-4eb8-49f7-8f78-3adb66570899)
 
 * Employees --> https://marta109.github.io/Employees/ <br>
 * ToDo --> https://marta109.github.io/ToDo/ <br>
 <br>
 //////////// Web & JS ////////////////////////////////<br>
 <br>
-*  UBER  --> Deploy: https://marta109.github.io/UBER/ <br>
-UBER Figma:  https://www.figma.com/file/2pzgNlklCuAi21Y0B5hJf9/UBER_course-(Copy)?node-id=539%3A3 <br>
-* Food -->  https://marta109.github.io/Food/ <br>
 * Word Counter -->  https://marta109.github.io/Word_Counter/ <br>
-* Wordpress -->  https://marta109.github.io/Wordpress/ <br>
-Wordpress Figma ->https://www.figma.com/file/Py3nRz4SfIN4RNHyuWn2ra/WordPress2-(Copy)?node-id=0%3A2
 
