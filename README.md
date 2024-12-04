@@ -65,7 +65,6 @@ Simple slider with the ability to scroll using keys or mouse.
 ## Word Counter<br>
 What is WordCounter?
 It's a simple word counter, you need to type words in the field, at the bottom you can find out in real time how many sentences you have already typed, the number of digits, the number of special characters called  Symbols, the number of letters, the number of all characters and the number of characters without spaces, as well as the number of words. The counter reads the text as words if it contains at least one letter, and also warns if the new sentence starts with a small letter.<br>
-1. Deploy: https://marta109.github.io/Word_Counter/ <br>
-2. Screenshot:
-![Screenshot_4](https://github.com/user-attachments/assets/5bbba9d0-291d-4cb8-91e8-f15a863ae09b)
+1. Deploy: (https://marta109.github.io/Word_Counter/)
+2. Screenshot:![Screenshot_4](https://github.com/user-attachments/assets/fc3a7b6f-e152-4aca-9894-fadf7d2fa1bf)
 
