@@ -59,8 +59,6 @@ Simple slider with the ability to scroll using keys or mouse.
 
 ///////////// React //////////////////////////////<br>
 
-* Employees --> https://marta109.github.io/Employees/ <br>
-* ToDo --> https://marta109.github.io/ToDo/ <br>
 <br>
 //////////// Web & JS ////////////////////////////////<br>
 <br>
