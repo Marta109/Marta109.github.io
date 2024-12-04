@@ -56,15 +56,15 @@ Travel is a project where you will need to create a website consisting of one pa
 Simple slider with the ability to scroll using keys or mouse. 
 1. Deploy: (https://marta109.github.io/Slider/) 
 2. Screenshot:![Screenshot_4](https://github.com/user-attachments/assets/8eb16ee9-949a-4dc5-a6b2-958e74a58564)
-
-///////////// React //////////////////////////////<br>
-
-<br>
-//////////// Web & JS ////////////////////////////////<br>
-<br>
 ## Word Counter<br>
 What is WordCounter?
 It's a simple word counter, you need to type words in the field, at the bottom you can find out in real time how many sentences you have already typed, the number of digits, the number of special characters called  Symbols, the number of letters, the number of all characters and the number of characters without spaces, as well as the number of words. The counter reads the text as words if it contains at least one letter, and also warns if the new sentence starts with a small letter.<br>
 1. Deploy: (https://marta109.github.io/Word_Counter/)
-2. Screenshot:![Screenshot_4](https://github.com/user-attachments/assets/fc3a7b6f-e152-4aca-9894-fadf7d2fa1bf)
+2. Screenshot:
+![Screenshot_4](https://github.com/user-attachments/assets/fc3a7b6f-e152-4aca-9894-fadf7d2fa1bf)
+
+
+///////////// React //////////////////////////////<br>
+
+
 
