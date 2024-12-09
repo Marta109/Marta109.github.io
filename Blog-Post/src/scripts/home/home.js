@@ -1,3 +1,4 @@
+import UI from '../utils/utils.js';
 import createHeader from '../header/createHeader.js';
 import createBloggerCard from './createBloggerCard.js';
 import createPosts from './createPosts.js';

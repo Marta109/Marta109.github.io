@@ -1,3 +1,5 @@
+import UI from '../utils/utils.js';
+
 const createFooter = () => {
   return UI.createElement(
     'footer',

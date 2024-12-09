@@ -285,6 +285,8 @@ form select {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+  max-width: 1000px;
+  overflow: hidden;
   margin-bottom: 10px;
 }
 .box img {
@@ -317,11 +319,17 @@ form select {
       flex-wrap: wrap;
   color: #0F1540;
   text-transform: capitalize;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .box .card-descr .card-title {
   font-size: 2rem;
   font-weight: bold;
   text-transform: capitalize;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .footer {

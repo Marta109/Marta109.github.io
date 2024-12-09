@@ -1,10 +1,12 @@
+import UI from '../../utils/utils.js';
 import createHeader from '../../header/createHeader.js';
+import Storage from '../../../data/storage.js';
 import { createFooter, updateFooter } from '../../footer/createFooter.js';
 import { toggleThem, logOutHandler } from '../../header/headerBtnHandlers.js';
 import { createNewPost } from './createPostHandler.js';
 
 const createNewPostLayout = () => {
-  const user = JSON.parse(sessionStorage.getItem('user'));
+  const user = Storage.getUserData();
   console.log(user);
 
   const container = UI.createElement('div', { class: 'container-root' }, [

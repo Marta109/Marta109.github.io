@@ -1,3 +1,6 @@
+import UI from '../utils/utils.js';
+import Storage from '../../data/storage.js';
+
 function createHeader(links, bool = false) {
   let defaultBtns = [
     {
@@ -15,10 +18,10 @@ function createHeader(links, bool = false) {
   if (bool) defaultBtns = links;
 
   let btns = [];
-  if (sessionStorage.getItem('user')) {
+  if (Storage.hasUser()) {
     btns = [
       UI.createElement('img', {
-        src: 'https://mdbcdn.b-cdn.net/img/new/avatars/2.webp',
+        src: 'https://avatars.githubusercontent.com/u/56305452?v=4?s=400',
         class: 'rounded-circle avatar-small',
         alt: 'Avatar',
         href: '#',

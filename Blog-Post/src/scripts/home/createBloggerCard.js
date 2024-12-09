@@ -1,4 +1,6 @@
+import UI from '../utils/utils.js';
 import { bloggers } from '../../data/data.js';
+
 
 const createBloggerCard = () => {
   const bloggersCard = [];
