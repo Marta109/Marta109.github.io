@@ -1,0 +1,127 @@
+@import './utils.css';
+
+.header_descr {
+  padding: var(--spacing-md);
+  background-color: var(--background-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_subtitle {
+  text-transform: capitalize;
+}
+
+.header_user {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+}
+
+.header_user_img {
+  border-radius: var(--border-radius);
+  border: 2px solid var(--border-color);
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.menu {
+  padding-top: 1rem;
+  width: 100%;
+}
+
+.menu .card {
+  margin: var(--spacing-lg);
+  background-color: var(--color-background);
+  color: var(--color-text);
+  border-radius: 1px solid var(--border-radius);
+  cursor: pointer;
+  text-align: center;
+
+  min-height: 700px;
+  border: 1px solid #c1b6ad;
+  border-radius: 40px;
+}
+
+.stars i {
+  color: #000;
+}
+
+#recipes-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.card.menu_card:hover .card-img-top {
+  background-color: var(--hover-color);
+  transform: scale(1.05);
+  transition:
+    transform var(--transition-default),
+    background-color var(--transition-default);
+}
+
+.menu .card_img_container {
+  height: 300px;
+  border-radius: var(--border-radius);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: transform 0.5s ease;
+  text-align: center;
+  border-radius: 40px;
+}
+
+.menu .card_img_container .card-img-top {
+  overflow: hidden;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+  transform: scale(1.1);
+  transition: transform 0.5s ease;
+}
+
+/* recipe----------- */
+
+.recipe_title {
+  color: var(--heading-color);
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.recipe_subtitle {
+  color: var(--secondary-color);
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+/* 
+.recipe_img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  
+} */
+
+.list-group-item {
+  background-color: #fff;
+  border: 1px solid var(--border-color);
+  font-weight: 300;
+}
+
+.recipe-details_img{
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+@media (max-width: 778px) {
+  .menu .card {
+    width: 400px;
+  }
+}
