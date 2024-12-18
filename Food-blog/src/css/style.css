@@ -114,10 +114,40 @@
   font-weight: 300;
 }
 
-.recipe-details_img{
+.recipe-details_img {
   width: 100%;
   height: 500px;
   object-fit: cover;
+}
+
+.quote-wrapper {
+  margin: 20px;
+}
+
+.quote-wrapper .links {
+  text-align: center;
+}
+
+.quote-wrapper .card-link {
+  color: #fff !important;
+  background-color: RGBA(
+    var(--bs-secondary-rgb),
+    var(--bs-bg-opacity, 1)
+  ) !important;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.quote-wrapper .card-link:hover {
+  background-color: rgb(32, 32, 28) !important;
+  transform: scale(1.05);
+}
+
+#loading-spinner {
+  font-size: 40px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 @media (max-width: 778px) {

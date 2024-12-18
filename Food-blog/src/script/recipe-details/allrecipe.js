@@ -1,4 +1,4 @@
-import Data from '../../data/data.js';
+import RecipeApi from '../../data/data.js';
 import addIngredients from './ingredients.js';
 import addInstructions from './instructions.js';
 import addMealType from './mealType.js';
@@ -9,7 +9,7 @@ import addTags from './tags.js';
 const params = new URLSearchParams(window.location.search);
 const cardId = params.get('id');
 
-Data.getRecipeById(cardId).then((data) => {
+RecipeApi.getRecipeById(cardId).then((data) => {
   console.log(data);
   const wrapper = document.querySelector('.recipe');
 

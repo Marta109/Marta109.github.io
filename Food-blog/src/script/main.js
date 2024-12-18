@@ -1,10 +1,15 @@
-import Data from '../data/data.js';
+import RecipeApi from '../data/data.js';
 import createRatingStars from './utils/rating-star.js';
+import createRandomQuote from './quote/quote.js';
+import quoteHandler from './quote/quoteHandler.js';
+
+createRandomQuote();
+quoteHandler();
 
 const createMenuItems = (selector = '#recipes-wrapper .row') => {
   const container = document.querySelector(selector);
 
-  Data.getAllRecipe().then((data) => {
+  RecipeApi.getAllRecipe().then((data) => {
     data.forEach((recipe) => {
       const card = document.createElement('div');
       card.classList.add('card-container');
