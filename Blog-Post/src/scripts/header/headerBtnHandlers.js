@@ -1,4 +1,5 @@
-import Storage from '../../data/storage.js';
+import Storage from '../../../data/storage.js';
+import RedirectHandler from '../redirection/redirectHandler.js';
 const toggleThem = () => {
   const toggleBtn = document.querySelector('.toggle-theme');
   const themeIcon = toggleBtn.querySelector('i');
@@ -24,7 +25,7 @@ const createPostHandler = () => {
   if (!createBtn) return;
 
   createBtn.addEventListener('click', () => {
-    window.location.href = './createPost.html';
+    RedirectHandler.redirectToCretePost()
   });
 };
 

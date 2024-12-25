@@ -1,6 +1,8 @@
-import Storage from '../../data/storage.js';
+import AuthApi from '../../../data/authApi.js';
+import Storage from '../../../data/storage.js';
 import { createNotification } from '../notification/createNotification.js';
-import signUpValidation from '../validation/signUpValidation.js';
+import RedirectHandler from '../redirection/redirectHandler.js';
+import ValidationSignInSignUP from '../validation/signIn_signUp.js';
 
 const registrationForm = document.querySelector('.registration-form form');
 
@@ -17,31 +19,37 @@ registrationForm.addEventListener('submit', (e) => {
   const username = formData.get('username');
 
   const user = {
-    username: username,
-    name: firstName,
-    surName: lastName,
-    email: email,
-    loggedIn: true,
-    lastLoggedIn: new Date(),
+    firstName,
+    lastName,
+    email,
+    username,
+    password,
   };
 
   try {
-    signUpValidation(
+    ValidationSignInSignUP.signUpValidation(
       firstName,
       lastName,
-      birthdayDate,
-      gender,
       email,
-      city,
-      password,
       username,
+      password,
+      // birthdayDate,
+      // gender,
+      // city,
     );
 
-    Storage.setUserData(user);
-    createNotification('success', 'Sing Up successful! Welcome!!!.');
-    setTimeout(() => {
-      window.location.href = '/Blog-Post/src/pages/home.html';
-    }, 3000);
+    AuthApi.registerUser(user)
+      .then((data) => {
+        if (data) {
+          return AuthApi.loginUser({ email, password });
+        }
+      })
+      .then((data) => {
+        if (data) {
+          Storage.setUserData(data.accessToken);
+          RedirectHandler.signUpHandler();
+        }
+      });
   } catch (error) {
     createNotification('error', error.message);
     console.error(error);

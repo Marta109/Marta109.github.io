@@ -1,31 +1,28 @@
-import Storage from '../../data/storage.js';
+import AuthApi from '../../../data/authApi.js';
+import Storage from '../../../data/storage.js';
 import { createNotification } from '../notification/createNotification.js';
-import signInValidation from '../validation/signInValidation.js';
+import RedirectHandler from '../redirection/redirectHandler.js';
+import ValidationSignInSignUP from '../validation/signIn_signUp.js';
 
 const loginForm = document.querySelector('.login-container form');
 
 loginForm.addEventListener('submit', (e) => {
   e.preventDefault();
   const formData = new FormData(loginForm);
-  const username = formData.get('username');
+  const email = formData.get('email');
   const password = formData.get('password');
 
   const user = {
-    username: username,
-    name: 'Jon',
-    surName: 'Smith',
-    email: 'j@example.com',
-    loggedIn: true,
-    lastLoggedIn: new Date(),
+    email,
+    password,
   };
 
   try {
-    signInValidation(username, password);
-    Storage.setUserData(user);
-    createNotification('success', 'Sing In successful! Welcome back.');
-    setTimeout(() => {
-      window.location.href = '/Blog-Post/src/pages/home.html';
-    }, 3000);
+    ValidationSignInSignUP.signInValidation(email, password);
+    AuthApi.loginUser(user).then((data) => {
+      Storage.setUserData(data.accessToken);
+      RedirectHandler.signInHandler();
+    });
   } catch (error) {
     createNotification('error', error.message);
     console.error(error);

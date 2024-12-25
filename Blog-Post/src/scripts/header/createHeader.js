@@ -1,5 +1,5 @@
 import UI from '../utils/utils.js';
-import Storage from '../../data/storage.js';
+import Storage from '../../../data/storage.js';
 
 function createHeader(links, bool = false) {
   let defaultBtns = [

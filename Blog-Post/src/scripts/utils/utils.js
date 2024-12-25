@@ -28,6 +28,11 @@ const validAttribute = (attrName) => {
     'h5',
     'checked',
     'disabled',
+    'aria-hidden',
+    'data-bs-dismiss',
+    'aria-label',
+    'tabindex',
+    'autocomplete',
   ]);
   return validAttributes.has(attrName);
 };
@@ -65,7 +70,6 @@ const createElement = (tagName, attributes, children) => {
 
 const render = (element, parent) => {
   if (!(parent instanceof HTMLElement)) {
-    console.log(parent);
     throw new Error(`Invalid parent element for render!`);
   }
   if (!(element instanceof HTMLElement)) {

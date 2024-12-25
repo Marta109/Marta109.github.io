@@ -45,7 +45,7 @@ function createRegistrationLayout() {
                           UI.createElement('div', { class: 'row' }, [
                             UI.createElement(
                               'div',
-                              { class: 'col-md-6 mb-4' },
+                              { class: 'col-md-6 mb-4 ' },
                               [
                                 UI.createElement(
                                   'div',
@@ -151,6 +151,7 @@ function createRegistrationLayout() {
                                       type: 'password',
                                       id: 'password',
                                       name: 'password',
+                                      autocomplete: 'new-password',
                                       required: true,
                                     }),
                                     UI.createElement(
@@ -165,126 +166,7 @@ function createRegistrationLayout() {
                                 ),
                               ],
                             ),
-                          ]),
-                          UI.createElement('div', { class: 'row' }, [
-                            UI.createElement(
-                              'div',
-                              {
-                                class:
-                                  'col-md-6 mb-4 d-flex align-items-center',
-                              },
-                              [
-                                UI.createElement(
-                                  'div',
-                                  {
-                                    'data-mdb-input-init': '',
-                                    class: 'form-outline datepicker w-100',
-                                  },
-                                  [
-                                    UI.createElement('input', {
-                                      class: 'form-control form-control-lg',
-                                      type:"date",
-                                      id: 'birthdayDate',
-                                      name: 'birthdayDate',
-                                      required: true,
-                                    }),
-                                    UI.createElement(
-                                      'label',
-                                      {
-                                        class: 'form-label',
-                                        for: 'birthdayDate',
-                                      },
-                                      'Birthday',
-                                    ),
-                                  ],
-                                ),
-                              ],
-                            ),
-                            UI.createElement(
-                              'div',
-                              { class: 'col-md-6 mb-4' },
-                              [
-                                UI.createElement(
-                                  'div',
-                                  {
-                                    class: 'mb-2 pb-1 h5',
-                                  },
-                                  'Gender:',
-                                ),
-                                UI.createElement(
-                                  'div',
-                                  {
-                                    class: 'form-check form-check-inline',
-                                  },
-                                  [
-                                    UI.createElement('input', {
-                                      class: 'form-check-input',
-                                      type: 'radio',
-                                      name: 'inlineRadioOptions',
-                                      id: 'femaleGender',
-                                      value: 'female',
-                                      checked: '',
-                                    }),
-                                    UI.createElement(
-                                      'label',
-                                      {
-                                        class: 'form-check-label',
-                                        for: 'femaleGender',
-                                      },
-                                      'Female',
-                                    ),
-                                  ],
-                                ),
-                                UI.createElement(
-                                  'div',
-                                  {
-                                    class: 'form-check form-check-inline',
-                                  },
-                                  [
-                                    UI.createElement('input', {
-                                      class: 'form-check-input',
-                                      type: 'radio',
-                                      name: 'inlineRadioOptions',
-                                      id: 'maleGender',
-                                      value: 'male',
-                                    }),
-                                    UI.createElement(
-                                      'label',
-                                      {
-                                        class: 'form-check-label',
-                                        for: 'maleGender',
-                                      },
-                                      'Male',
-                                    ),
-                                  ],
-                                ),
-                                UI.createElement(
-                                  'div',
-                                  {
-                                    class: 'form-check form-check-inline',
-                                  },
-                                  [
-                                    UI.createElement('input', {
-                                      class: 'form-check-input',
-                                      type: 'radio',
-                                      name: 'inlineRadioOptions',
-                                      id: 'otherGender',
-                                      value: 'otherGender',
-                                    }),
-                                    UI.createElement(
-                                      'label',
-                                      {
-                                        class: 'form-check-label',
-                                        for: 'otherGender',
-                                      },
-                                      'Other',
-                                    ),
-                                  ],
-                                ),
-                              ],
-                            ),
-                          ]),
-                          UI.createElement('div', { class: 'row' }, [
+
                             UI.createElement(
                               'div',
                               {
@@ -303,6 +185,7 @@ function createRegistrationLayout() {
                                       type: 'email',
                                       name: 'email',
                                       id: 'emailAddress',
+                                      autocomplete: 'new-email',
                                       required: true,
                                     }),
                                     UI.createElement(
@@ -317,76 +200,298 @@ function createRegistrationLayout() {
                                 ),
                               ],
                             ),
-                            UI.createElement(
-                              'div',
-                              {
-                                class: 'col-md-6 mb-4 pb-2',
-                              },
-                              [
-                                UI.createElement(
-                                  'div',
-                                  {
-                                    'data-mdb-input-init': '',
-                                    class: 'form-outline',
-                                  },
-                                  [
-                                    UI.createElement(
-                                      'select',
-                                      {
-                                        class: 'select form-control-lg',
-                                        name: 'city',
-                                      },
-                                      [
-                                        UI.createElement(
-                                          'option',
-                                          {
-                                            value: 'city',
-                                            disabled: '',
-                                          },
-                                          'Choose option',
-                                        ),
-                                        UI.createElement(
-                                          'option',
-                                          {
-                                            value: 'city',
-                                          },
-                                          'City',
-                                        ),
-                                        UI.createElement(
-                                          'option',
-                                          {
-                                            value: 'Yerevan',
-                                          },
-                                          'Yerevan',
-                                        ),
-                                        UI.createElement(
-                                          'option',
-                                          {
-                                            value: 'Seoul',
-                                          },
-                                          'Seoul',
-                                        ),
-                                        UI.createElement(
-                                          'option',
-                                          {
-                                            value: 'Tokio',
-                                          },
-                                          'Tokio',
-                                        ),
-                                      ],
-                                    ),
-                                    UI.createElement(
-                                      'label',
-                                      {
-                                        class: 'form-label select-label',
-                                      },
-                                      'Choose option',
-                                    ),
-                                  ],
-                                ),
-                              ],
-                            ),
+                            // UI.createElement(
+                            //   'div',
+                            //   {
+                            //     class: 'col-md-6 mb-4 pb-2',
+                            //   },
+                            //   [
+                            //     UI.createElement(
+                            //       'div',
+                            //       {
+                            //         'data-mdb-input-init': '',
+                            //         class: 'form-outline',
+                            //       },
+                            //       [
+                            //         UI.createElement(
+                            //           'select',
+                            //           {
+                            //             class: 'select form-control-lg',
+                            //             name: 'city',
+                            //           },
+                            //           [
+                            //             UI.createElement(
+                            //               'option',
+                            //               {
+                            //                 value: 'city',
+                            //                 disabled: '',
+                            //               },
+                            //               'Choose option',
+                            //             ),
+                            //             UI.createElement(
+                            //               'option',
+                            //               {
+                            //                 value: 'city',
+                            //               },
+                            //               'City',
+                            //             ),
+                            //             UI.createElement(
+                            //               'option',
+                            //               {
+                            //                 value: 'Yerevan',
+                            //               },
+                            //               'Yerevan',
+                            //             ),
+                            //             UI.createElement(
+                            //               'option',
+                            //               {
+                            //                 value: 'Seoul',
+                            //               },
+                            //               'Seoul',
+                            //             ),
+                            //             UI.createElement(
+                            //               'option',
+                            //               {
+                            //                 value: 'Tokio',
+                            //               },
+                            //               'Tokio',
+                            //             ),
+                            //           ],
+                            //         ),
+                            //         UI.createElement(
+                            //           'label',
+                            //           {
+                            //             class: 'form-label select-label',
+                            //           },
+                            //           'Choose option',
+                            //         ),
+                            //       ],
+                            //     ),
+                            //   ],
+                            // ),
                           ]),
+
+                          // UI.createElement('div', { class: 'row' }, [
+                          //   UI.createElement(
+                          //     'div',
+                          //     {
+                          //       class:
+                          //         'col-md-6 mb-4 d-flex align-items-center',
+                          //     },
+                          //     [
+                          //       UI.createElement(
+                          //         'div',
+                          //         {
+                          //           'data-mdb-input-init': '',
+                          //           class: 'form-outline datepicker w-100',
+                          //         },
+                          //         [
+                          //           UI.createElement('input', {
+                          //             class: 'form-control form-control-lg',
+                          //             type: 'date',
+                          //             id: 'birthdayDate',
+                          //             name: 'birthdayDate',
+                          //             // required: true,
+                          //           }),
+                          //           UI.createElement(
+                          //             'label',
+                          //             {
+                          //               class: 'form-label',
+                          //               for: 'birthdayDate',
+                          //             },
+                          //             'Birthday',
+                          //           ),
+                          //         ],
+                          //       ),
+                          //     ],
+                          //   ),
+                          //   // UI.createElement(
+                          //   //   'div',
+                          //   //   { class: 'col-md-6 mb-4' },
+                          //   //   [
+                          //   //     UI.createElement(
+                          //   //       'div',
+                          //   //       {
+                          //   //         class: 'mb-2 pb-1 h5',
+                          //   //       },
+                          //   //       'Gender:',
+                          //   //     ),
+                          //   //     UI.createElement(
+                          //   //       'div',
+                          //   //       {
+                          //   //         class: 'form-check form-check-inline',
+                          //   //       },
+                          //   //       [
+                          //   //         UI.createElement('input', {
+                          //   //           class: 'form-check-input',
+                          //   //           type: 'radio',
+                          //   //           name: 'inlineRadioOptions',
+                          //   //           id: 'femaleGender',
+                          //   //           value: 'female',
+                          //   //           checked: '',
+                          //   //         }),
+                          //   //         UI.createElement(
+                          //   //           'label',
+                          //   //           {
+                          //   //             class: 'form-check-label',
+                          //   //             for: 'femaleGender',
+                          //   //           },
+                          //   //           'Female',
+                          //   //         ),
+                          //   //       ],
+                          //   //     ),
+                          //   //     UI.createElement(
+                          //   //       'div',
+                          //   //       {
+                          //   //         class: 'form-check form-check-inline',
+                          //   //       },
+                          //   //       [
+                          //   //         UI.createElement('input', {
+                          //   //           class: 'form-check-input',
+                          //   //           type: 'radio',
+                          //   //           name: 'inlineRadioOptions',
+                          //   //           id: 'maleGender',
+                          //   //           value: 'male',
+                          //   //         }),
+                          //   //         UI.createElement(
+                          //   //           'label',
+                          //   //           {
+                          //   //             class: 'form-check-label',
+                          //   //             for: 'maleGender',
+                          //   //           },
+                          //   //           'Male',
+                          //   //         ),
+                          //   //       ],
+                          //   //     ),
+                          //   //     UI.createElement(
+                          //   //       'div',
+                          //   //       {
+                          //   //         class: 'form-check form-check-inline',
+                          //   //       },
+                          //   //       [
+                          //   //         UI.createElement('input', {
+                          //   //           class: 'form-check-input',
+                          //   //           type: 'radio',
+                          //   //           name: 'inlineRadioOptions',
+                          //   //           id: 'otherGender',
+                          //   //           value: 'otherGender',
+                          //   //         }),
+                          //   //         UI.createElement(
+                          //   //           'label',
+                          //   //           {
+                          //   //             class: 'form-check-label',
+                          //   //             for: 'otherGender',
+                          //   //           },
+                          //   //           'Other',
+                          //   //         ),
+                          //   //       ],
+                          //   //     ),
+                          //   //   ],
+                          //   // ),
+                          // ]),
+                          // UI.createElement('div', { class: 'row' }, [
+                          // UI.createElement(
+                          //   'div',
+                          //   {
+                          //     class: 'col-md-6 mb-4 pb-2',
+                          //   },
+                          //   [
+                          //     UI.createElement(
+                          //       'div',
+                          //       {
+                          //         'data-mdb-input-init': '',
+                          //         class: 'form-outline',
+                          //       },
+                          //       [
+                          //         UI.createElement('input', {
+                          //           class: 'form-control form-control-lg',
+                          //           type: 'email',
+                          //           name: 'email',
+                          //           id: 'emailAddress',
+                          //           required: true,
+                          //         }),
+                          //         UI.createElement(
+                          //           'label',
+                          //           {
+                          //             class: 'form-label',
+                          //             for: 'emailAddress',
+                          //           },
+                          //           'Email',
+                          //         ),
+                          //       ],
+                          //     ),
+                          //   ],
+                          // ),
+                          // UI.createElement(
+                          //   'div',
+                          //   {
+                          //     class: 'col-md-6 mb-4 pb-2',
+                          //   },
+                          //   [
+                          //     UI.createElement(
+                          //       'div',
+                          //       {
+                          //         'data-mdb-input-init': '',
+                          //         class: 'form-outline',
+                          //       },
+                          //       [
+                          //         UI.createElement(
+                          //           'select',
+                          //           {
+                          //             class: 'select form-control-lg',
+                          //             name: 'city',
+                          //           },
+                          //           [
+                          //             UI.createElement(
+                          //               'option',
+                          //               {
+                          //                 value: 'city',
+                          //                 disabled: '',
+                          //               },
+                          //               'Choose option',
+                          //             ),
+                          //             UI.createElement(
+                          //               'option',
+                          //               {
+                          //                 value: 'city',
+                          //               },
+                          //               'City',
+                          //             ),
+                          //             UI.createElement(
+                          //               'option',
+                          //               {
+                          //                 value: 'Yerevan',
+                          //               },
+                          //               'Yerevan',
+                          //             ),
+                          //             UI.createElement(
+                          //               'option',
+                          //               {
+                          //                 value: 'Seoul',
+                          //               },
+                          //               'Seoul',
+                          //             ),
+                          //             UI.createElement(
+                          //               'option',
+                          //               {
+                          //                 value: 'Tokio',
+                          //               },
+                          //               'Tokio',
+                          //             ),
+                          //           ],
+                          //         ),
+                          //         UI.createElement(
+                          //           'label',
+                          //           {
+                          //             class: 'form-label select-label',
+                          //           },
+                          //           'Choose option',
+                          //         ),
+                          //       ],
+                          //     ),
+                          //   ],
+                          // ),
+                          // ]),
                           UI.createElement(
                             'div',
                             {

@@ -72,20 +72,21 @@ function createLoginLayout() {
                               },
                               [
                                 UI.createElement('input', {
-                                  type: 'text',
+                                  type: 'email',
                                   class: 'form-control form-control-lg',
-                                  placeholder: 'username',
-                                  name: 'username',
-                                  id: 'formUserName',
+                                  placeholder: 'email',
+                                  name: 'email',
+                                  id: 'email',
+                                  autocomplete: 'current-email',
                                   required: true,
                                 }),
                                 UI.createElement(
                                   'label',
                                   {
                                     class: 'form-label',
-                                    for: 'formUserName',
+                                    for: 'email',
                                   },
-                                  'Username',
+                                  'email',
                                 ),
                               ],
                             ),
@@ -102,6 +103,7 @@ function createLoginLayout() {
                                   placeholder: 'password',
                                   name: 'password',
                                   id: 'formPassword',
+                                  autocomplete: 'current-password',
                                   required: true,
                                 }),
                                 UI.createElement(

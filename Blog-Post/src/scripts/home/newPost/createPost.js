@@ -1,13 +1,12 @@
 import UI from '../../utils/utils.js';
 import createHeader from '../../header/createHeader.js';
-import Storage from '../../../data/storage.js';
+// import Storage from '../../../../data/storage.js';
 import { createFooter, updateFooter } from '../../footer/createFooter.js';
 import { toggleThem, logOutHandler } from '../../header/headerBtnHandlers.js';
 import { createNewPost } from './createPostHandler.js';
 
 const createNewPostLayout = () => {
-  const user = Storage.getUserData();
-  console.log(user);
+  // const user = Storage.getUserData();
 
   const container = UI.createElement('div', { class: 'container-root' }, [
     createHeader(
@@ -34,20 +33,20 @@ const createNewPostLayout = () => {
             UI.createElement('div', { class: 'author-info input-group mb-3' }, [
               UI.createElement('span', { class: 'input-group-text' }, 'Author'),
               UI.createElement('input', {
-                placeholder: 'First Name',
+                placeholder: 'Ethel Lilian',
                 class: 'form-control',
                 name: 'firstName',
                 type: 'text',
-                value: user.name,
-                disabled: '',
+                // value: user.name,
+                // disabled: '',
               }),
               UI.createElement('input', {
-                placeholder: 'Last Name',
+                placeholder: 'Voynich',
                 class: 'form-control',
                 type: 'text',
                 name: 'lastName',
-                value: user.surName,
-                disabled: '',
+                // value: user.surName,
+                // disabled: '',
               }),
             ]),
             UI.createElement('div', { class: 'input-group mb-3' }, [
