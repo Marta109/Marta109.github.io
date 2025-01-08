@@ -56,6 +56,10 @@ Travel is a project where you will need to create a website consisting of one pa
 Simple slider with the ability to scroll using keys or mouse. 
 1. Deploy: (https://marta109.github.io/Slider/) 
 2. Screenshot:![Screenshot_4](https://github.com/user-attachments/assets/8eb16ee9-949a-4dc5-a6b2-958e74a58564)
+## Blog-Post
+Basic Blockpost Project. It includes user registration, viewing information about books, and creating posts related to books. Users can add images, descriptions, titles, and specify authors. The primary focus is on the quality of code, the design of methods, functions, and the overall application architecture, making the project an excellent foundation for further development.
+1. Deploy: (https://marta109.github.io/Blog-Post/index.html) 
+2. Screenshot:![Screenshot_6](https://github.com/user-attachments/assets/8307dc87-02a3-4e27-a975-c9bd4ea6c563)
 ## Word Counter<br>
 What is WordCounter?
 It's a simple word counter, you need to type words in the field, at the bottom you can find out in real time how many sentences you have already typed, the number of digits, the number of special characters called  Symbols, the number of letters, the number of all characters and the number of characters without spaces, as well as the number of words. The counter reads the text as words if it contains at least one letter, and also warns if the new sentence starts with a small letter.<br>
