@@ -110,16 +110,18 @@ form
 .box
     box-sizing: border-box
     box-shadow: 0 0 10px $boxShedow
-    flex: 1
+    // flex: 1
     max-width: 1000px
     overflow: hidden
     // min-height: 300px
     margin-bottom: 10px
+    box-shadow: 0 0 10px $colorMain
+    border-radius: $border-radius
     img
         height: 350px
         object-fit: cover
         object-position: 50% 5%
-        box-shadow: 0 0 10px $color-title
+        box-shadow: 0 0 10px $colorMain
         border-radius: $border-radius
     .card
         background: $color_Section_bg
@@ -196,14 +198,115 @@ form
         span,label
             background: $colorMain
 
-@media (max-width: 600px)
+input[type=file]::file-selector-button
+    background: $colorMain
+    border-radius: $border-radius
+
+.pagination
+    display: flex
+    justify-content: space-around
+    align-items: center
+    gap: 2px
+    margin-top: 10px
+    .pagination-item
+        background: $colorMain
+        color: $color-title
+        border: none
+        border-radius: $border-radius
+        padding: 5px
+        cursor: pointer
+        &.active
+            box-shadow: 0 0 20px $color-shedow
+            background: $color-title
+            color: white
+        &:hover
+            box-shadow: 0 0 20px $color-shedow
+            background: $color-title
+            color: white
+
+@media (max-width: 1047px)
+    .main-section
+        .section
+            width: 75%
+        .sidebar
+            .container .card
+                min-height: 100px
+                padding: 5px
+                .card-body
+                    padding: 5px
+                img
+                    margin: 0 auto
+
+@media (max-width: 890px)
     .main-section
         .sidebar
-            max-width: 150px
-        .container .card img
-            width: 100px
-            height: 100px
-        .card-body
+            width: 100%
+            max-width: 190px
+            min-height: 300px
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            align-items: center
+            .pagination
+                gap: 2px
+            .pagination-item
+                padding: 5px
+        .container .card
             padding: 5px
-        .card
+            img
+                width: 100px
+                height: 100px
+            .card-body
+                .card-title, .card-descr
+                    font-size: 15px
+
+        .card-body
+            font-size: 15px
+
+@media (max-width: 818px)
+    .main-section
+        .sidebar
+            width: 100%
+            max-width: 150px
+            .pagination
+                gap: 2px
+            .pagination-item
+                padding: 2px
+
+@media (max-width: 668px)
+    .main-section
+        flex-direction: column
+        width: 100%
+
+        .sidebar
+            width: 100%
+            min-width: 600px
+            min-height: 300px
+            margin-bottom: 20px
+            .container
+                display: flex
+                flex-direction: row
+                justify-content: space-between
+                width: 100%
+                min-width: 600px
+                min-height: 100px
+                gap: 5px
+                .card
+                    padding: 2px
+                    img
+                        width: 50px
+                        height: 50px
+                    .card-body
+                        padding: 5px
+        .pagination
+            width: 100%
+            justify-content: center
+            align-items: center
+            gap: 10px !important
             padding: 10px
+            .pagination-item
+                padding: 2px
+
+    .section
+        width: 100% !important
+        margin: 0 auto

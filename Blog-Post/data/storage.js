@@ -3,7 +3,7 @@ import RedirectHandler from '../src/scripts/redirection/redirectHandler.js';
 class Storage {
   static clearUserData(itemName = 'access') {
     try {
-      sessionStorage.removeItem(itemName);
+      localStorage.removeItem(itemName);
       RedirectHandler.logoutHandler();
     } catch (error) {
       console.error('Error clearing user data:', error);
@@ -11,29 +11,43 @@ class Storage {
   }
 
   static hasUser(itemName = 'access') {
-    return !!sessionStorage.getItem(itemName);
+    return !!localStorage.getItem(itemName);
   }
 
-  static getUserData(itemName = 'access') {
+  static getAccessToken(itemName = 'access') {
     if (!this.hasUser(itemName)) return null;
-    return JSON.parse(sessionStorage.getItem(itemName));
+    return JSON.parse(localStorage.getItem(itemName));
   }
 
-  static setUserData(data, itemName = 'access') {
-    sessionStorage.setItem(itemName, JSON.stringify(data));
+  static getUserId() {
+    const userData = this.getUserData();
+    return userData ? userData.id : null;
+  }
+
+  static setAccessToken(data, itemName = 'access') {
+    localStorage.setItem(itemName, JSON.stringify(data));
+  }
+
+  static setUserData(data, itemName = 'user') {
+    localStorage.setItem(itemName, JSON.stringify(data));
+  }
+
+  static getUserData(itemName = 'user') {
+    if (!this.hasUser(itemName)) return null;
+    return JSON.parse(localStorage.getItem(itemName));
   }
 
   // static getNewPosts(itemName = 'newPost') {
-  //   const posts = sessionStorage.getItem('newPost');
+  //   const posts = localStorage.getItem('newPost');
   //   return posts ? JSON.parse(posts) : [];
   // }
 
   // static setNewPost(newPost, itemName = 'newPost') {
-  //   let oldPosts = sessionStorage.getItem(itemName);
+  //   let oldPosts = localStorage.getItem(itemName);
 
   //   oldPosts = oldPosts ? JSON.parse(oldPosts) : [];
   //   oldPosts.push(newPost);
-  //   sessionStorage.setItem(itemName, JSON.stringify(oldPosts));
+  //   localStorage.setItem(itemName, JSON.stringify(oldPosts));
   // }
 }
 

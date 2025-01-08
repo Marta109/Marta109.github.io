@@ -2,11 +2,14 @@ import PostApi from '../../../../data/postApi.js';
 import { createNotification } from '../../notification/createNotification.js';
 import ValidationUpdatePost from '../../validation/updatePost.js';
 import updatePostContent from './updateContent.js';
+import checkUser from '../../utils/checkUser.js';
+import getImgUrl from '../../utils/uploadImg/getImgUrl.js';
+import Storage from '../../../../data/storage.js';
 
 const updatePostHandler = (id) => {
   const postWrapper = document.querySelector('.modal.update-post-modal');
 
-  postWrapper.addEventListener('click', (e) => {
+  postWrapper.addEventListener('click', async (e) => {
     if (
       e.target.id === 'close-edit-modal' ||
       e.target.classList.contains('btn-close')
@@ -23,20 +26,30 @@ const updatePostHandler = (id) => {
       const lastName = document
         .querySelector('input[name="lastName"]')
         .value.trim();
-      const img = document.querySelector('input[name="imgLink"]').value.trim();
+      let img = document.querySelector('input[name="imgLink"]').value.trim();
+      const file = document.querySelector('#fileUpload').files[0];
+
+      if (file) {
+        img = await getImgUrl(file);
+      }
 
       const authorName = `${firstName} ${lastName}`;
-      const post = { title, story, authorName, img };
+      const userId = Storage.getUserId();
+      const post = { title, story, authorName, img, userId };
 
       try {
         const postData2 = { ...post };
         postData2.authorFirstName = firstName;
         postData2.authorLastName = lastName;
         ValidationUpdatePost.validateNewData(postData2);
-        PostApi.updatePost(id, post).then(() => {
+        const token = checkUser();
+
+        PostApi.updatePost(id, post, token).then((data) => {
+          if (!data) {
+            updatePostContent(post, id);
+            createNotification('success', 'Post updated successfully!');
+          }
           postWrapper.remove();
-          updatePostContent(post, id);
-          createNotification('success', 'Post updated successfully!');
         });
       } catch (error) {
         createNotification('error', error.message);

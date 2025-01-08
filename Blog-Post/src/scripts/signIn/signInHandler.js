@@ -20,7 +20,8 @@ loginForm.addEventListener('submit', (e) => {
   try {
     ValidationSignInSignUP.signInValidation(email, password);
     AuthApi.loginUser(user).then((data) => {
-      Storage.setUserData(data.accessToken);
+      Storage.setAccessToken(data.accessToken);
+      Storage.setUserData(data.user);
       RedirectHandler.signInHandler();
     });
   } catch (error) {

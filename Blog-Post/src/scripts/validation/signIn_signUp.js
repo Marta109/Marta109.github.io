@@ -62,21 +62,31 @@ class ValidationSignInSignUP {
     }
   }
 
-  static signUpValidation(
+  static validateAvatar(avatar) {
+    if (!avatar || !avatar === '') {
+      throw new ValidationError(
+        'Invalid avatar. Please upload a valid avatar.',
+      );
+    }
+  }
+
+  static signUpValidation({
     firstName,
     lastName,
     email,
     username,
     password,
+    avatar,
     // birthdayDate,
     // gender,
     // city,
-  ) {
+  }) {
     this.validateName(firstName, 'first name');
     this.validateName(lastName, 'last name');
     this.validateEmail(email);
     this.validateUsername(username);
     this.validatePassword(password);
+    this.validateAvatar(avatar);
     // this.validateBirthday(birthdayDate);
     // this.validateCity(city);
 

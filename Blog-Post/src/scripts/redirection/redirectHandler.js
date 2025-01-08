@@ -12,6 +12,10 @@ class RedirectHandler {
     window.location.href = `${this.mainPath}/home.html`;
   }
 
+  static redirectToLogin() {
+    window.location.href = '../../index.html';
+  }
+
   static logoutHandler() {
     createNotification(
       'info',

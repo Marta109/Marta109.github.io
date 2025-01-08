@@ -8,6 +8,7 @@ class ApiPaths {
     },
     posts: 'posts',
     users: 'users',
+    fileUpload: 'file-upload/upload',
   };
 
   static getFullPath(path, other) {

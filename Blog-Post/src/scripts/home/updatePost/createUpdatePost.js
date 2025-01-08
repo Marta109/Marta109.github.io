@@ -52,7 +52,7 @@ const createUpdatePost = (data) => {
               UI.createElement(
                 'span',
                 { class: 'input-group-text' },
-                'Image Link',
+                'Current Image',
               ),
               UI.createElement('input', {
                 class: 'form-control',
@@ -61,6 +61,20 @@ const createUpdatePost = (data) => {
                 placeholder: 'img url',
                 alt: 'post img',
                 value: data.img,
+                disabled: true,
+              }),
+            ]),
+            UI.createElement('div', { class: 'input-group mb-3' }, [
+              UI.createElement('input', {
+                class: 'form-control form-control-lg',
+                type: 'file',
+                name: 'fileUpload',
+                id: 'fileUpload',
+                required: true,
+              }),
+              UI.createElement('label', {
+                class: 'form-label',
+                for: 'fileUpload',
               }),
             ]),
 
@@ -120,7 +134,7 @@ const createUpdatePost = (data) => {
   );
 
   UI.render(container, document.body);
-  updatePostHandler(data.id,);
+  updatePostHandler(data.id);
 };
 
 export default createUpdatePost;

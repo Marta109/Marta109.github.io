@@ -19,9 +19,12 @@ function createHeader(links, bool = false) {
 
   let btns = [];
   if (Storage.hasUser()) {
+    const avatar =
+      Storage.getUserData.avatar ||
+      'https://avatars.githubusercontent.com/u/56305452?v=4?s=400';
     btns = [
       UI.createElement('img', {
-        src: 'https://avatars.githubusercontent.com/u/56305452?v=4?s=400',
+        src: avatar,
         class: 'rounded-circle avatar-small',
         alt: 'Avatar',
         href: '#',

@@ -1,4 +1,5 @@
 import { createNotification } from '../src/scripts/notification/createNotification.js';
+import checkUser from '../src/scripts/utils/checkUser.js';
 import {
   hideSpinner,
   showSpinner,
@@ -9,9 +10,7 @@ class PostApi {
   static async getAllPosts() {
     try {
       showSpinner();
-      const response = await fetch(
-        ApiPaths.getFullPath(ApiPaths.paths.posts),
-      );
+      const response = await fetch(ApiPaths.getFullPath(ApiPaths.paths.posts));
 
       if (!response.ok) {
         const errorData = await response.json();
@@ -26,12 +25,19 @@ class PostApi {
     }
   }
 
-  static async getPostById(id) {
-    if (!id) return;
+  static async getPostById(id, token) {
+    if (!id || !token) return;
+
     try {
       showSpinner();
       const response = await fetch(
         ApiPaths.getFullPath(ApiPaths.paths.posts, id),
+        {
+          headers: {
+            'Content-Type': 'application/json',
+            Authorization: `Bearer ${token}`,
+          },
+        },
       );
 
       if (!response.ok) {
@@ -48,23 +54,26 @@ class PostApi {
     }
   }
 
-  static async createPost(postData) {
-    if (!postData) return;
+  static async createPost(postData, token) {
+    if (!postData || !token) return;
     try {
       showSpinner();
-      const response = await fetch(
-        ApiPaths.getFullPath(ApiPaths.paths.posts),
-        {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify(postData),
+      const response = await fetch(ApiPaths.getFullPath(ApiPaths.paths.posts), {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: `Bearer ${token}`,
         },
-      );
+        body: JSON.stringify(postData),
+      });
 
       if (!response.ok) {
         const errorData = await response.json();
+        if (response.status === 401) {
+          checkUser(true);
+          return 'false';
+        }
+
         throw new Error(errorData.message);
       }
 
@@ -78,8 +87,8 @@ class PostApi {
     }
   }
 
-  static async updatePost(id, postData) {
-    if (!id || !postData) return;
+  static async updatePost(id, postData, token) {
+    if (!id || !postData || !token) return;
     try {
       showSpinner();
       const response = await fetch(
@@ -88,6 +97,7 @@ class PostApi {
           method: 'PUT',
           headers: {
             'Content-Type': 'application/json',
+            Authorization: `Bearer ${token}`,
           },
           body: JSON.stringify(postData),
         },
@@ -95,7 +105,13 @@ class PostApi {
 
       if (!response.ok) {
         const errorData = await response.json();
-        throw new Error(errorData.message);
+
+        if (response.status === 401) {
+          checkUser(true);
+          return 'false';
+        }
+
+        throw new Error(errorData.message || 'Error updating post');
       }
     } catch (error) {
       createNotification('error', error);
@@ -105,19 +121,26 @@ class PostApi {
     }
   }
 
-  static async deletePost(id) {
-    if (!id) return;
+  static async deletePost(id, token) {
+    if (!id || !token) return;
     try {
       showSpinner();
       const response = await fetch(
         ApiPaths.getFullPath(ApiPaths.paths.posts, id),
         {
           method: 'DELETE',
+          headers: {
+            Authorization: `Bearer ${token}`,
+          },
         },
       );
 
       if (!response.ok) {
         const errorData = await response.json();
+        if (response.status === 401) {
+          checkUser(true);
+          return 'false';
+        }
         throw new Error(errorData.message);
       }
     } catch (error) {

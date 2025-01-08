@@ -1,4 +1,6 @@
 import PostApi from '../../../../data/postApi.js';
+import { createNotification } from '../../notification/createNotification.js';
+import checkUser from '../../utils/checkUser.JS';
 // import createUpdatePost from '../updatePost/createUpdatePost.js';
 import getOldPostData from '../updatePost/getOldPostData.js';
 
@@ -11,9 +13,12 @@ const postHandler = () => {
     ) {
       const elem = e.target.closest('.card');
       const parent = elem.closest('section');
-
-      PostApi.deletePost(+elem.id).then(() => {
-        parent.classList.add('hidden');
+      const token = checkUser();
+      PostApi.deletePost(+elem.id, token).then((data) => {
+        if (!data) {
+          parent.classList.add('hidden');
+          createNotification('success', 'Post deleted successfully');
+        }
       });
     } else if (
       e.target.id === 'update-post' ||

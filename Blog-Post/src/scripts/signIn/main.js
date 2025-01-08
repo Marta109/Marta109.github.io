@@ -1,5 +1,7 @@
 import UI from '../utils/utils.js';
 import createHeader from '../header/createHeader.js';
+import Storage from '../../../data/storage.js';
+import RedirectHandler from '../redirection/redirectHandler.js';
 import { createFooter, updateFooter } from '../footer/createFooter.js';
 import { toggleThem } from '../header/headerBtnHandlers.js';
 
@@ -152,6 +154,10 @@ function createLoginLayout() {
   ]);
 
   UI.render(container, document.body);
+}
+
+if (Storage.hasUser()) {
+  RedirectHandler.redirectToHome();
 }
 
 setInterval(() => {
