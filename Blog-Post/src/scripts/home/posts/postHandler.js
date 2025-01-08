@@ -1,6 +1,6 @@
 import PostApi from '../../../../data/postApi.js';
 import { createNotification } from '../../notification/createNotification.js';
-import checkUser from '../../utils/checkUser.JS';
+import checkUser from '../../utils/checkUser.js';
 // import createUpdatePost from '../updatePost/createUpdatePost.js';
 import getOldPostData from '../updatePost/getOldPostData.js';
 
