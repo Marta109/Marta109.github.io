@@ -2,7 +2,7 @@ import UI from '../utils/utils.js';
 import createHeader from '../header/createHeader.js';
 import { createFooter, updateFooter } from '../footer/createFooter.js';
 import { toggleThem } from '../header/headerBtnHandlers.js';
-import previewImg from '../home/newPost/previewImg.js';
+import previewImg from '../utils/previewImg.js';
 
 function createRegistrationLayout() {
   const container = UI.createElement('div', { class: 'container-root' }, [

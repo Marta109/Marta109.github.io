@@ -1,5 +1,6 @@
 import UI from '../../utils/utils.js';
 import updatePostHandler from './updateHandler.js';
+import previewImage from '../../utils/previewImg.js';
 
 const createUpdatePost = (data) => {
   if (!data) return;
@@ -48,28 +49,32 @@ const createUpdatePost = (data) => {
                 value: data.title,
               }),
             ]),
-            UI.createElement('div', { class: 'input-group mb-3' }, [
-              UI.createElement(
-                'span',
-                {
-                  class: 'input-group-text',
+            UI.createElement(
+              'div',
+              { class: 'input-group mb-3', id: 'currentImg' },
+              [
+                UI.createElement(
+                  'span',
+                  {
+                    class: 'input-group-text',
+                    name: 'imgLink',
+                    type: 'text',
+                    value: data.img,
+                  },
+                  'Current Image',
+                ),
+                UI.createElement('img', {
+                  class: 'form-control',
                   name: 'imgLink',
-                  type: 'text',
-                  value: data.img,
-                },
-                'Current Image',
-              ),
-              UI.createElement('img', {
-                class: 'form-control',
-                name: 'imgLink',
-                // type: 'text',
-                // placeholder: 'img url',
-                alt: 'post img',
-                src: data.img,
-                // value: data.img,
-                // disabled: true,
-              }),
-            ]),
+                  // type: 'text',
+                  // placeholder: 'img url',
+                  alt: 'post img',
+                  src: data.img,
+                  // value: data.img,
+                  // disabled: true,
+                }),
+              ],
+            ),
             UI.createElement('div', { class: 'input-group mb-3' }, [
               UI.createElement('input', {
                 class: 'form-control form-control-lg',
@@ -83,6 +88,24 @@ const createUpdatePost = (data) => {
                 for: 'fileUpload',
               }),
             ]),
+            UI.createElement(
+              'div',
+              { class: 'input-group mb-3', id: 'previewImageWrapper' },
+              [
+                UI.createElement(
+                  'span',
+                  {
+                    class: 'input-group-text',
+                  },
+                  'Image Preview',
+                ),
+                UI.createElement('img', {
+                  class: 'form-control',
+                  id: 'previewImage',
+                  src: '',
+                }),
+              ],
+            ),
 
             UI.createElement(
               'div',
@@ -141,6 +164,7 @@ const createUpdatePost = (data) => {
 
   UI.render(container, document.body);
   updatePostHandler(data.id);
+  previewImage();
 };
 
 export default createUpdatePost;

@@ -4,7 +4,7 @@ import createHeader from '../../header/createHeader.js';
 import { createFooter, updateFooter } from '../../footer/createFooter.js';
 import { toggleThem, logOutHandler } from '../../header/headerBtnHandlers.js';
 import { createNewPost } from './createPostHandler.js';
-import previewImg from './previewImg.js';
+import previewImg from '../../utils/previewImg.js';
 
 const createNewPostLayout = () => {
   // const user = Storage.getAccessToken();
