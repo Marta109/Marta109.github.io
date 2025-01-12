@@ -22,6 +22,10 @@ export const createNewPost = () => {
       .querySelector('input[name="lastName"]')
       .value.trim();
     const file = document.querySelector('#fileUpload').files[0];
+    if (!file) {
+      createNotification('error', 'Please select an image');
+      return;
+    }
     const img = await getImgUrl(file);
 
     try {
@@ -37,8 +41,10 @@ export const createNewPost = () => {
       const authorName = `${firstName} ${lastName}`;
       const newPost = { title, story, authorName, img, userId };
       const token = checkUser();
-      PostApi.createPost(newPost, token).then(() => {
-        RedirectHandler.redirectAfterPostCreation();
+      PostApi.createPost(newPost, token).then((data) => {
+        if (data) {
+          RedirectHandler.redirectAfterPostCreation();
+        }
       });
     } catch (error) {
       createNotification('error', error);

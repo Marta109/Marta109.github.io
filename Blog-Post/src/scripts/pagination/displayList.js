@@ -1,41 +1,14 @@
-const displayList = (paginateData, itemsPerPage, currentPage) => {
+import displayBloggers from './sections/displayBloggers.js';
+import displayPosts from './sections/displayPosts.js';
+
+const displayList = (paginateData, itemsPerPage, currentPage, place) => {
   if (!paginateData) return;
 
-  if (!currentPage) {
-    const paginationParEL = document.querySelector('.sidebar .pagination');
-    const activePaginationItem = paginationParEL.querySelector('.active');
-    currentPage = activePaginationItem.textContent;
+  if (place === 'bloggers') {
+    displayBloggers(paginateData, itemsPerPage, currentPage);
+  } else {
+    displayPosts(paginateData, itemsPerPage, currentPage);
   }
-
-  
-  const startIndex = (currentPage - 1) * itemsPerPage;
-  const endIndex = startIndex + itemsPerPage;
-  const data = paginateData.slice(startIndex, endIndex);
-
-  const mainContainer = document.querySelectorAll('.sidebar .container .card');
-  console.log(data.length);
-  console.log(mainContainer.length);
-  mainContainer.forEach((parent, i) => {
-    if (i < data.length && data[i]) {
-      parent.classList.remove('hidden');
-      // parent.style.display = 'inline-block';
-      const titleElem = parent.querySelector('.card-title');
-      const authorElem = parent.querySelector('.card-descr');
-      const emailElem = parent.querySelector('.card-descr.email');
-      const imageElem = parent.querySelector('img');
-      titleElem.textContent = `${data[i].firstName} ${data[i].lastName}`;
-      authorElem.textContent = data[i].username;
-      emailElem.textContent = data[i].email;
-      imageElem.src =
-        data[i].avatar ||
-        'https://avatars.mds.yandex.net/i?id=a312755a937797721e28e1c2d119f010_l-5175041-images-thumbs&n=13';
-      // item.style.display = displayItems[index]? 'block' : 'none';
-    } else {
-      parent.classList.add('hidden');
-      console.log('yyyyyyyyyyyyyyyyyyy');
-      // parent.style.display = 'none';
-    }
-  });
 };
 
 export default displayList;

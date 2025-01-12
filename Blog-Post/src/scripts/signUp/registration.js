@@ -2,6 +2,7 @@ import UI from '../utils/utils.js';
 import createHeader from '../header/createHeader.js';
 import { createFooter, updateFooter } from '../footer/createFooter.js';
 import { toggleThem } from '../header/headerBtnHandlers.js';
+import previewImg from '../home/newPost/previewImg.js';
 
 function createRegistrationLayout() {
   const container = UI.createElement('div', { class: 'container-root' }, [
@@ -527,6 +528,27 @@ function createRegistrationLayout() {
                           UI.createElement(
                             'div',
                             {
+                              class: 'input-group mb-3',
+                              id: 'previewImageWrapper',
+                            },
+                            [
+                              UI.createElement(
+                                'span',
+                                {
+                                  class: 'input-group-text',
+                                },
+                                'Image Preview',
+                              ),
+                              UI.createElement('img', {
+                                class: 'form-control',
+                                id: 'previewImage',
+                                src: '',
+                              }),
+                            ],
+                          ),
+                          UI.createElement(
+                            'div',
+                            {
                               class: 'mt-4 pt-2',
                             },
                             [
@@ -560,4 +582,5 @@ setInterval(() => {
 }, 1000);
 
 createRegistrationLayout();
+previewImg();
 toggleThem();

@@ -78,7 +78,7 @@ form
     flex: 1
     padding: $padding-medium
     .sidebar
-        width: 200px
+        width: 240px
         height: 100%
         background-color: $color_Main_bg
         box-shadow: 0 0 10px $boxShedow
@@ -95,12 +95,14 @@ form
             border-radius: $border-radius
 
             img
+                margin: 0 auto
                 width: 150px
                 height: 150px
                 object-fit: cover
                 box-shadow: 0 0 10px $color-title
 
 .section
+    width: 100%
     box-sizing: border-box
     gap: 10px
     display: flex
@@ -111,7 +113,7 @@ form
     box-sizing: border-box
     box-shadow: 0 0 10px $boxShedow
     // flex: 1
-    max-width: 1000px
+    // max-width: 1000px
     overflow: hidden
     // min-height: 300px
     margin-bottom: 10px
@@ -119,10 +121,12 @@ form
     border-radius: $border-radius
     img
         height: 350px
-        object-fit: cover
+        // object-fit: cover
+        object-fit: contain
         object-position: 50% 5%
         box-shadow: 0 0 10px $colorMain
         border-radius: $border-radius
+        background-color: black
     .card
         background: $color_Section_bg
         box-shadow: 0 0 20px $color-shedow
@@ -166,6 +170,12 @@ form
     background: $colorMain
     padding: $padding-medium
 
+#previewImage
+    width: 150px
+    height: 150px
+    object-fit: contain
+    background-color: black
+
 .spinner-none
     display: none
 
@@ -204,16 +214,18 @@ input[type=file]::file-selector-button
 
 .pagination
     display: flex
-    justify-content: space-around
+    flex-wrap: wrap
+    justify-content: center
     align-items: center
     gap: 2px
     margin-top: 10px
+    padding: 3px
     .pagination-item
         background: $colorMain
         color: $color-title
         border: none
         border-radius: $border-radius
-        padding: 5px
+        padding: 4px
         cursor: pointer
         &.active
             box-shadow: 0 0 20px $color-shedow
@@ -223,6 +235,9 @@ input[type=file]::file-selector-button
             box-shadow: 0 0 20px $color-shedow
             background: $color-title
             color: white
+        &.disabled
+            pointer-events: none
+            opacity: 0.5
 
 @media (max-width: 1047px)
     .main-section
@@ -248,9 +263,9 @@ input[type=file]::file-selector-button
             justify-content: space-between
             align-items: center
             .pagination
-                gap: 2px
+
             .pagination-item
-                padding: 5px
+                padding: px
         .container .card
             padding: 5px
             img
@@ -271,7 +286,7 @@ input[type=file]::file-selector-button
             .pagination
                 gap: 2px
             .pagination-item
-                padding: 2px
+                padding: 3px
 
 @media (max-width: 668px)
     .main-section
@@ -283,16 +298,19 @@ input[type=file]::file-selector-button
             min-width: 600px
             min-height: 300px
             margin-bottom: 20px
+            padding: 10px
             .container
                 display: flex
                 flex-direction: row
-                justify-content: space-between
+                justify-content: center
+                align-items: center
+                flex-wrap: wrap
                 width: 100%
-                min-width: 600px
-                min-height: 100px
+                // min-width: 600px
                 gap: 5px
                 .card
                     padding: 2px
+                    height: 130px
                     img
                         width: 50px
                         height: 50px
@@ -305,8 +323,10 @@ input[type=file]::file-selector-button
             gap: 10px !important
             padding: 10px
             .pagination-item
-                padding: 2px
+                padding: 3px
 
     .section
         width: 100% !important
         margin: 0 auto
+        img
+            object-fit: fill

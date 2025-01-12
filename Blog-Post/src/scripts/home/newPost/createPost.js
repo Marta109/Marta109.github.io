@@ -4,6 +4,7 @@ import createHeader from '../../header/createHeader.js';
 import { createFooter, updateFooter } from '../../footer/createFooter.js';
 import { toggleThem, logOutHandler } from '../../header/headerBtnHandlers.js';
 import { createNewPost } from './createPostHandler.js';
+import previewImg from './previewImg.js';
 
 const createNewPostLayout = () => {
   // const user = Storage.getAccessToken();
@@ -74,6 +75,24 @@ const createNewPostLayout = () => {
 
             UI.createElement(
               'div',
+              { class: 'input-group mb-3', id: 'previewImageWrapper' },
+              [
+                UI.createElement(
+                  'span',
+                  {
+                    class: 'input-group-text',
+                  },
+                  'Image Preview',
+                ),
+                UI.createElement('img', {
+                  class: 'form-control',
+                  id: 'previewImage',
+                  src: '',
+                }),
+              ],
+            ),
+            UI.createElement(
+              'div',
               {
                 class: 'form-outline story-container',
                 'data-mdb-input-init': '',
@@ -122,6 +141,7 @@ setInterval(() => {
 }, 1000);
 
 createNewPostLayout();
+previewImg();
 toggleThem();
 logOutHandler();
 createNewPost();

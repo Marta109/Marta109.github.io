@@ -234,7 +234,7 @@ form select {
   padding: 20px;
 }
 .main-section .sidebar {
-  width: 200px;
+  width: 240px;
   height: 100%;
   background-color: #212B38;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -255,6 +255,7 @@ form select {
   border-radius: 4px;
 }
 .main-section .container .card img {
+  margin: 0 auto;
   width: 150px;
   height: 150px;
   -o-object-fit: cover;
@@ -264,6 +265,7 @@ form select {
 }
 
 .section {
+  width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   gap: 10px;
@@ -282,7 +284,6 @@ form select {
           box-sizing: border-box;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  max-width: 1000px;
   overflow: hidden;
   margin-bottom: 10px;
   -webkit-box-shadow: 0 0 10px #7B74FF;
@@ -291,13 +292,14 @@ form select {
 }
 .box img {
   height: 350px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
   -o-object-position: 50% 5%;
      object-position: 50% 5%;
   -webkit-box-shadow: 0 0 10px #7B74FF;
           box-shadow: 0 0 10px #7B74FF;
   border-radius: 4px;
+  background-color: black;
 }
 .box .card {
   background: #DCB586;
@@ -366,6 +368,14 @@ form select {
   padding: 20px;
 }
 
+#previewImage {
+  width: 150px;
+  height: 150px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-color: black;
+}
+
 .spinner-none {
   display: none;
 }
@@ -415,20 +425,24 @@ input[type=file]::file-selector-button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   gap: 2px;
   margin-top: 10px;
+  padding: 3px;
 }
 .pagination .pagination-item {
   background: #7B74FF;
   color: #0F1540;
   border: none;
   border-radius: 4px;
-  padding: 5px;
+  padding: 4px;
   cursor: pointer;
 }
 .pagination .pagination-item.active {
@@ -442,6 +456,10 @@ input[type=file]::file-selector-button {
           box-shadow: 0 0 20px #646cff;
   background: #0F1540;
   color: white;
+}
+.pagination .pagination-item.disabled {
+  pointer-events: none;
+  opacity: 0.5;
 }
 
 @media (max-width: 1047px) {
@@ -478,11 +496,8 @@ input[type=file]::file-selector-button {
         -ms-flex-align: center;
             align-items: center;
   }
-  .main-section .sidebar .pagination {
-    gap: 2px;
-  }
   .main-section .sidebar .pagination-item {
-    padding: 5px;
+    padding: px;
   }
   .main-section .container .card {
     padding: 5px;
@@ -507,7 +522,7 @@ input[type=file]::file-selector-button {
     gap: 2px;
   }
   .main-section .sidebar .pagination-item {
-    padding: 2px;
+    padding: 3px;
   }
 }
 @media (max-width: 668px) {
@@ -523,6 +538,7 @@ input[type=file]::file-selector-button {
     min-width: 600px;
     min-height: 300px;
     margin-bottom: 20px;
+    padding: 10px;
   }
   .main-section .sidebar .container {
     display: -webkit-box;
@@ -532,16 +548,20 @@ input[type=file]::file-selector-button {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     width: 100%;
-    min-width: 600px;
-    min-height: 100px;
     gap: 5px;
   }
   .main-section .sidebar .container .card {
     padding: 2px;
+    height: 130px;
   }
   .main-section .sidebar .container .card img {
     width: 50px;
@@ -562,10 +582,14 @@ input[type=file]::file-selector-button {
     padding: 10px;
   }
   .main-section .pagination .pagination-item {
-    padding: 2px;
+    padding: 3px;
   }
   .section {
     width: 100% !important;
     margin: 0 auto;
+  }
+  .section img {
+    -o-object-fit: fill;
+       object-fit: fill;
   }
 }/*# sourceMappingURL=style.css.map */

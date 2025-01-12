@@ -24,7 +24,11 @@ function createHomeLayout() {
         UI.createElement('div', { class: 'container' }, [...bloggers]),
         UI.createElement('div', { class: 'pagination' }),
       ]),
-      UI.createElement('div', { class: 'section' }, [...posts, createFooter()]),
+      UI.createElement('div', { class: 'section' }, [
+        ...posts,
+        UI.createElement('div', { class: 'pagination' }),
+        createFooter(),
+      ]),
     ]),
   ]);
 

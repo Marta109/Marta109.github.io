@@ -1,7 +1,7 @@
 import displayList from './displayList.js';
 import displayPagination from './displayPagination.js';
 
-const pagination = (data) => {
+const pagination = (data, place = 'bloggers') => {
   let itemsPerPage = 10;
   let bool = false;
 
@@ -10,42 +10,25 @@ const pagination = (data) => {
       const width = window.innerWidth;
       if (width <= 668) {
         itemsPerPage = 5;
-        displayList(data, itemsPerPage, 1);
+        displayList(data, itemsPerPage, 1, place);
       }
-      displayPagination(data, itemsPerPage);
+      displayPagination(data, itemsPerPage, place);
       bool = true;
     }, 1000);
   }
 
   window.addEventListener('resize', () => {
     const width = window.innerWidth;
-    console.log(width);
     if (width <= 668) {
+      if (itemsPerPage === 5) return;
       itemsPerPage = 5;
-      displayList(data, itemsPerPage);
+      displayList(data, itemsPerPage, null, place);
     } else {
+      if (itemsPerPage === 10) return;
       itemsPerPage = 10;
     }
-    displayPagination(data, itemsPerPage);
+    displayPagination(data, itemsPerPage, place);
   });
-
-  // const width = window.innerWidth;
-  // if (width <= 668) {
-  //   itemsPerPage = 5;
-  //   setTimeout(() => {
-  //     console.log('first');
-  //     displayPagination(data, itemsPerPage);
-  //     // displayList(data, itemsPerPage);
-  //   }, 1000);
-  //   return;
-  // } else {
-  //   itemsPerPage = 10;
-  // }
-
-  // setTimeout(() => {
-  //   console.log('second');
-  //   displayPagination(data, itemsPerPage);
-  // }, 1000);
 };
 
 export default pagination;

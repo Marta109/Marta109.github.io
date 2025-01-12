@@ -51,17 +51,23 @@ const createUpdatePost = (data) => {
             UI.createElement('div', { class: 'input-group mb-3' }, [
               UI.createElement(
                 'span',
-                { class: 'input-group-text' },
+                {
+                  class: 'input-group-text',
+                  name: 'imgLink',
+                  type: 'text',
+                  value: data.img,
+                },
                 'Current Image',
               ),
-              UI.createElement('input', {
+              UI.createElement('img', {
                 class: 'form-control',
                 name: 'imgLink',
-                type: 'text',
-                placeholder: 'img url',
+                // type: 'text',
+                // placeholder: 'img url',
                 alt: 'post img',
-                value: data.img,
-                disabled: true,
+                src: data.img,
+                // value: data.img,
+                // disabled: true,
               }),
             ]),
             UI.createElement('div', { class: 'input-group mb-3' }, [

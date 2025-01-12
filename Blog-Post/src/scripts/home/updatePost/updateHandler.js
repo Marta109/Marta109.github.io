@@ -26,7 +26,11 @@ const updatePostHandler = (id) => {
       const lastName = document
         .querySelector('input[name="lastName"]')
         .value.trim();
-      let img = document.querySelector('input[name="imgLink"]').value.trim();
+
+      let img = document
+        .querySelector('span[name="imgLink"]')
+        .getAttribute('value')
+        .trim();
       const file = document.querySelector('#fileUpload').files[0];
 
       if (file) {

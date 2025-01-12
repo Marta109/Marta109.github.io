@@ -4,7 +4,7 @@ import Storage from '../../../data/storage.js';
 function createHeader(links, bool = false) {
   let defaultBtns = [
     {
-      name: 'Create Blog',
+      name: 'New Post',
       id: 'createNewPost',
       href: '#',
     },
