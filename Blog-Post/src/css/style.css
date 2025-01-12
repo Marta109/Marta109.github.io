@@ -592,4 +592,9 @@ input[type=file]::file-selector-button {
     -o-object-fit: fill;
        object-fit: fill;
   }
+}
+@media (max-width: 668px) and (max-width: 600px) {
+  .main-section .sidebar {
+    min-width: 470px;
+  }
 }/*# sourceMappingURL=style.css.map */
