@@ -159,7 +159,7 @@ Interactive image slider with keyboard/mouse controls.
 [🔼 Back to top](#-my-projects-portfolio)
 ---
 
-## 🙋‍♀️ About Me 
+🙋‍♀️## About Me 
 
 Hi, I'm **Marta Hayrapetyan** — a frontend developer passionate about building intuitive interfaces with:
 
