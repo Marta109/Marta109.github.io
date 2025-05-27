@@ -157,10 +157,9 @@ Interactive image slider with keyboard/mouse controls.
 ![Slider Interface](https://github.com/user-attachments/assets/8eb16ee9-949a-4dc5-a6b2-958e74a58564)
 
 [🔼 Back to top](#-my-projects-portfolio)
-
 ---
 
-## 🙋‍♀️ About Me
+## 🙋‍♀️ About Me 
 
 Hi, I'm **Marta Hayrapetyan** — a frontend developer passionate about building intuitive interfaces with:
 
