@@ -7,7 +7,7 @@ Welcome to my portfolio! Here you can explore projects I've created using differ
 - [⚛️ React Projects](#-react-projects)
 - [💻 JavaScript Projects](#-javascript-projects)
 - [🎨 HTML/CSS Projects](#-htmlcss-projects)
-- [🙋‍♀️ About Me](#-about-me)
+- [🙋‍♀️ About Me](#about-me)
 
 ---
 
