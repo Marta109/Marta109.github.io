@@ -1,74 +1,177 @@
-# My projects
+# 🚀 My Projects Portfolio
 
-## RSS Puzzle
+Welcome to my portfolio! Here you can explore projects I've created using different technologies. They are organized into three main categories:
 
-An interactive mini-game aimed at developing English language skill is an interactive mini-game aimed at developing English language skills. Players assemble sentences from jumbled words, inspired by Lingualeo's "Phrase Builder" training. The game includes different difficulty levels, pronunciation, hint options and a unique puzzle with artistic design. 
+## 📚 Contents
 
-1. Task: https://github.com/rolling-scopes-school/tasks/tree/master/stage2/tasks/puzzle
-2. Deploy: https://rolling-scopes-school.github.io/marta109-JSFE2023Q4/rss-puzzle/index.html
-3. Screenshots: 
-![Screenshot_2](https://github.com/rolling-scopes-school/marta109-JSFE2023Q4/assets/71411783/14c75b29-a6ab-4fbd-80ef-7e456c8da5ad)
-![Screenshot_3](https://github.com/rolling-scopes-school/marta109-JSFE2023Q4/assets/71411783/a58ab87d-e6ce-4ef8-a3e3-59181d962f5f)
-![Screenshot_4](https://github.com/rolling-scopes-school/marta109-JSFE2023Q4/assets/71411783/6b46d10f-088b-4195-a06b-b75aa325b68f)
-![Screenshot_1](https://github.com/user-attachments/assets/a85591b9-60fd-4512-aae4-614bbbae538f)
+- [⚛️ React Projects](#-react-projects)
+- [💻 JavaScript Projects](#-javascript-projects)
+- [🎨 HTML/CSS Projects](#-htmlcss-projects)
+- [🙋‍♀️ About Me](#-about-me)
 
-## Nonograms 
-Nonograms is a puzzle game to reveal a hidden picture by looking at the number clues. The clues are given at the top and left side of the grid. Each number in these clue defines a block of black cell. A number indicates an unbroken line of black cells, and they are in the same order as the lines. These puzzles are often black and white—describing a binary image—but they can also be colored.
-1. Task: https://github.com/rolling-scopes-school/tasks/tree/master/tasks/nonograms
-2. Deploy: https://rolling-scopes-school.github.io/marta109-JSFE2023Q4/nonograms/index.html
-3. Screenshot:
-![Screenshot_1](https://github.com/rolling-scopes-school/marta109-JSFE2023Q4/assets/71411783/4d93dee3-12ad-4ef8-80a8-b6f355af06f3)
+---
 
-## Hangman 
-Hangman is a classic word game in which you must find the correct answer by guessing letters one at a time.
-1.Task: https://github.com/rolling-scopes-school/tasks/tree/master/stage1/tasks/hangman    
-2. Deploy: https://rolling-scopes-school.github.io/marta109-JSFE2023Q4/hangman/index.html    
-3. Screenshot:![Screenshot_1](https://github.com/rolling-scopes-school/marta109-JSFE2023Q4/assets/71411783/4b80f1a1-b46e-43cd-b4e9-e5bc52407c54)
+## ⚛️ React Projects
+*Coming soon!*  
 
-## Tic-Tac-Toe
-Implementation of the game tic-tac-toe with the ability to change the field size from 3 to 20
-1. Deploy: (https://marta109.github.io/Tic-Tac-Toe/) 
-2. Screenshot:
-![Screenshot_3](https://github.com/user-attachments/assets/75ee32ec-55d2-43c8-ba10-9583cd5c7dca)
-![Screenshot_2](https://github.com/user-attachments/assets/81b25640-b833-4008-b8d3-2eaa48c552fd)
+[🔼 Back to top](#-my-projects-portfolio)
 
-## Coffee house 
-Coffee House is a project where you will need to create a website consisting of two pages, make it responsive, and add interactivity.   
-1.Task: https://github.com/rolling-scopes-school/tasks/blob/master/tasks/coffee-house/coffee-house.md    
-2. Deploy: https://rolling-scopes-school.github.io/marta109-JSFE2023Q4/coffee-house/home.html      
-3. Screenshot:
-![Screenshot_1](https://github.com/user-attachments/assets/09339ed7-856e-4a36-a6d0-0bbb65eacf44)
-![Screenshot_2](https://github.com/user-attachments/assets/6bc884fe-04b7-4bf1-a73a-fa0eb2844cf2)
-![Screenshot_3](https://github.com/user-attachments/assets/06eef6e9-0f52-451e-a3c7-6b121f73bf52)
+---
 
+## 💻 JavaScript Projects
 
-## Bouncy 
-Bouncy is a project where you will need to create a website consisting of one page.     
-1. Deploy: https://marta109.github.io/Bouncy/     
-2. Screenshot:
-![Screenshot_3](https://github.com/Marta109/Marta109.github.io/assets/71411783/9d390600-60b3-4b6c-aae8-7ab539fa9ace)
-## Travel 
-Travel is a project where you will need to create a website consisting of one page.     
-1. Deploy: https://marta109.github.io/Travel/    
-2. Screenshot:
-![Screenshot_4](https://github.com/Marta109/Marta109.github.io/assets/71411783/9f073a9a-d7c7-4e0a-9ccc-5ea1e77231f2)
-## Slider 
-Simple slider with the ability to scroll using keys or mouse. 
-1. Deploy: (https://marta109.github.io/Slider/) 
-2. Screenshot:![Screenshot_4](https://github.com/user-attachments/assets/8eb16ee9-949a-4dc5-a6b2-958e74a58564)
-## Blog-Post
-Basic Blockpost Project. It includes user registration, viewing information about books, and creating posts related to books. Users can add images, descriptions, titles, and specify authors. The primary focus is on the quality of code, the design of methods, functions, and the overall application architecture, making the project an excellent foundation for further development.
-1. Deploy: (https://marta109.github.io/Blog-Post/index.html) 
-2. Screenshot:![Screenshot_6](https://github.com/user-attachments/assets/8307dc87-02a3-4e27-a975-c9bd4ea6c563)
-## Word Counter<br>
-What is WordCounter?
-It's a simple word counter, you need to type words in the field, at the bottom you can find out in real time how many sentences you have already typed, the number of digits, the number of special characters called  Symbols, the number of letters, the number of all characters and the number of characters without spaces, as well as the number of words. The counter reads the text as words if it contains at least one letter, and also warns if the new sentence starts with a small letter.<br>
-1. Deploy: (https://marta109.github.io/Word_Counter/)
-2. Screenshot:
-![Screenshot_4](https://github.com/user-attachments/assets/fc3a7b6f-e152-4aca-9894-fadf7d2fa1bf)
+### 🧩 RSS Puzzle
+**Interactive English learning game**  
+Assemble sentences from jumbled words with different difficulty levels, pronunciation, and hints. Inspired by Lingualeo's "Phrase Builder".
 
+🔗 **Links:**  
+- [Task Description](https://github.com/rolling-scopes-school/tasks/tree/master/stage2/tasks/puzzle)
+- [Live Demo](https://rolling-scopes-school.github.io/marta109-JSFE2023Q4/rss-puzzle/index.html)
 
-///////////// React //////////////////////////////<br>
+🖼️ **Screenshots:**  
+![Gameplay](https://github.com/rolling-scopes-school/marta109-JSFE2023Q4/assets/71411783/14c75b29-a6ab-4fbd-80ef-7e456c8da5ad)
+![Level Selection](https://github.com/rolling-scopes-school/marta109-JSFE2023Q4/assets/71411783/a58ab87d-e6ce-4ef8-a3e3-59181d962f5f)
 
+[🔼 Back to top](#-my-projects-portfolio)
 
+---
 
+### 🖼️ Nonograms
+**Logic puzzle game** where you reveal hidden pictures using number clues.
+
+🔗 **Links:**  
+- [Task Description](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/nonograms)
+- [Live Demo](https://rolling-scopes-school.github.io/marta109-JSFE2023Q4/nonograms/index.html)
+
+🖼️ **Screenshot:**  
+![Game Interface](https://github.com/rolling-scopes-school/marta109-JSFE2023Q4/assets/71411783/4d93dee3-12ad-4ef8-80a8-b6f355af06f3)
+
+[🔼 Back to top](#-my-projects-portfolio)
+
+---
+
+### 💀 Hangman
+Classic word guessing game where you save the stick figure by guessing letters.
+
+🔗 **Links:**  
+- [Task Description](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/tasks/hangman)  
+- [Live Demo](https://rolling-scopes-school.github.io/marta109-JSFE2023Q4/hangman/index.html)
+
+🖼️ **Screenshot:**  
+![Game Screen](https://github.com/rolling-scopes-school/marta109-JSFE2023Q4/assets/71411783/4b80f1a1-b46e-43cd-b4e9-e5bc52407c54)
+
+[🔼 Back to top](#-my-projects-portfolio)
+
+---
+
+### ❌⭕ Tic-Tac-Toe
+Customizable version with variable board size (3-20).
+
+🔗 **Links:**  
+- [Live Demo](https://marta109.github.io/Tic-Tac-Toe/)
+
+🖼️ **Screenshots:**  
+![Small Board](https://github.com/user-attachments/assets/81b25640-b833-4008-b8d3-2eaa48c552fd)
+![Large Board](https://github.com/user-attachments/assets/75ee32ec-55d2-43c8-ba10-9583cd5c7dca)
+
+[🔼 Back to top](#-my-projects-portfolio)
+
+---
+
+### 📝 Blog-Post
+Book-focused blog platform with user registration and post creation.
+
+🔗 **Links:**  
+- [Live Demo](https://marta109.github.io/Blog-Post/index.html)
+
+🖼️ **Screenshot:**  
+![Blog Interface](https://github.com/user-attachments/assets/8307dc87-02a3-4e27-a975-c9bd4ea6c563)
+
+[🔼 Back to top](#-my-projects-portfolio)
+
+---
+
+### 🔢 Word Counter
+Real-time text analysis tool counting words, sentences, characters, and more.
+
+🔗 **Links:**  
+- [Live Demo](https://marta109.github.io/Word_Counter/)
+
+🖼️ **Screenshot:**  
+![Counter Interface](https://github.com/user-attachments/assets/fc3a7b6f-e152-4aca-9894-fadf7d2fa1bf)
+
+[🔼 Back to top](#-my-projects-portfolio)
+
+---
+
+## 🎨 HTML/CSS Projects
+
+### ☕ Coffee House
+Responsive multi-page coffee shop website.
+
+🔗 **Links:**  
+- [Task Description](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/coffee-house/coffee-house.md)
+- [Live Demo](https://rolling-scopes-school.github.io/marta109-JSFE2023Q4/coffee-house/home.html)
+
+🖼️ **Screenshots:**  
+![Homepage](https://github.com/user-attachments/assets/09339ed7-856e-4a36-a6d0-0bbb65eacf44)
+![Menu](https://github.com/user-attachments/assets/6bc884fe-04b7-4bf1-a73a-fa0eb2844cf2)
+
+[🔼 Back to top](#-my-projects-portfolio)
+
+---
+
+### 🏀 Bouncy
+Single-page creative website design.
+
+🔗 **Links:**  
+- [Live Demo](https://marta109.github.io/Bouncy/)
+
+🖼️ **Screenshot:**  
+![Bouncy Page](https://github.com/Marta109/Marta109.github.io/assets/71411783/9d390600-60b3-4b6c-aae8-7ab539fa9ace)
+
+[🔼 Back to top](#-my-projects-portfolio)
+
+---
+
+### ✈️ Travel
+Single-page travel-themed website.
+
+🔗 **Links:**  
+- [Live Demo](https://marta109.github.io/Travel/)
+
+🖼️ **Screenshot:**  
+![Travel Page](https://github.com/Marta109/Marta109.github.io/assets/71411783/9f073a9a-d7c7-4e0a-9ccc-5ea1e77231f2)
+
+[🔼 Back to top](#-my-projects-portfolio)
+
+---
+
+### 🖼️ Slider
+Interactive image slider with keyboard/mouse controls.
+
+🔗 **Links:**  
+- [Live Demo](https://marta109.github.io/Slider/)
+
+🖼️ **Screenshot:**  
+![Slider Interface](https://github.com/user-attachments/assets/8eb16ee9-949a-4dc5-a6b2-958e74a58564)
+
+[🔼 Back to top](#-my-projects-portfolio)
+
+---
+
+## 🙋‍♀️ About Me
+
+Hi, I'm **Marta Hayrapetyan** — a frontend developer passionate about building intuitive interfaces with:
+
+`JavaScript` | `React` | 
+
+**Let's connect:**  
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mh-marta-hayrapetyan/)  
+[![Email](https://img.shields.io/badge/-Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:marta.hayrapetyan.a@gmail.com)
+
+[🔼 Back to top](#-my-projects-portfolio)
+
+---
+
+🛠️ Built with ❤️ by [Marta](https://github.com/Marta109)
