@@ -7,7 +7,7 @@ Welcome to my portfolio! Here you can explore projects I've created using differ
 - [⚛️ React Projects](#-react-projects)
 - [💻 JavaScript Projects](#-javascript-projects)
 - [🎨 HTML/CSS Projects](#-htmlcss-projects)
-- [🙋‍♀️ About Me](#-about-me)
+- [🙋‍♀️ About Me](#about-me)
 
 ---
 
@@ -167,8 +167,7 @@ Hi, I'm **Marta Hayrapetyan** — a frontend developer passionate about building
 `JavaScript` | `React` | 
 
 **Let's connect:**  
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mh-marta-hayrapetyan/)  
-[![Email](https://img.shields.io/badge/-Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:marta.hayrapetyan.a@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/mh-marta-hayrapetyan/) | [Email](mailto:marta.hayrapetyan.a@gmail.com)
 
 [🔼 Back to top](#-my-projects-portfolio)
 
