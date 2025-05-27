@@ -160,7 +160,7 @@ Interactive image slider with keyboard/mouse controls.
 
 ---
 
-🙋‍♀️ About Me
+## 🙋‍♀️ About Me
 
 Hi, I'm **Marta** — a frontend developer passionate about building intuitive interfaces with:
 
