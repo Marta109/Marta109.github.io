@@ -4,9 +4,9 @@ Welcome to my portfolio! Here you can explore projects I've created using differ
 
 ## 📚 Contents
 
-- [⚛️ React Projects](#-react-projects)
-- [💻 JavaScript Projects](#-javascript-projects)
-- [🎨 HTML/CSS Projects](#-htmlcss-projects)
+- [⚛️ React Projects](#react-projects)
+- [💻 JavaScript Projects](#javascript-projects)
+- [🎨 HTML/CSS Projects](#htmlcss-projects)
 - [🙋‍♀️ About Me](#about-me)
 
 ---
@@ -14,7 +14,7 @@ Welcome to my portfolio! Here you can explore projects I've created using differ
 ## ⚛️ React Projects
 *Coming soon!*  
 
-[🔼 Back to top](#-my-projects-portfolio)
+[🔼 Back to top](#my-projects-portfolio)
 
 ---
 
@@ -32,7 +32,7 @@ Assemble sentences from jumbled words with different difficulty levels, pronunci
 ![Gameplay](https://github.com/rolling-scopes-school/marta109-JSFE2023Q4/assets/71411783/14c75b29-a6ab-4fbd-80ef-7e456c8da5ad)
 ![Level Selection](https://github.com/rolling-scopes-school/marta109-JSFE2023Q4/assets/71411783/a58ab87d-e6ce-4ef8-a3e3-59181d962f5f)
 
-[🔼 Back to top](#-my-projects-portfolio)
+[🔼 Back to top](#my-projects-portfolio)
 
 ---
 
@@ -46,7 +46,7 @@ Assemble sentences from jumbled words with different difficulty levels, pronunci
 🖼️ **Screenshot:**  
 ![Game Interface](https://github.com/rolling-scopes-school/marta109-JSFE2023Q4/assets/71411783/4d93dee3-12ad-4ef8-80a8-b6f355af06f3)
 
-[🔼 Back to top](#-my-projects-portfolio)
+[🔼 Back to top](#my-projects-portfolio)
 
 ---
 
@@ -60,7 +60,7 @@ Classic word guessing game where you save the stick figure by guessing letters.
 🖼️ **Screenshot:**  
 ![Game Screen](https://github.com/rolling-scopes-school/marta109-JSFE2023Q4/assets/71411783/4b80f1a1-b46e-43cd-b4e9-e5bc52407c54)
 
-[🔼 Back to top](#-my-projects-portfolio)
+[🔼 Back to top](#my-projects-portfolio)
 
 ---
 
@@ -74,7 +74,7 @@ Customizable version with variable board size (3-20).
 ![Small Board](https://github.com/user-attachments/assets/81b25640-b833-4008-b8d3-2eaa48c552fd)
 ![Large Board](https://github.com/user-attachments/assets/75ee32ec-55d2-43c8-ba10-9583cd5c7dca)
 
-[🔼 Back to top](#-my-projects-portfolio)
+[🔼 Back to top](#my-projects-portfolio)
 
 ---
 
@@ -87,7 +87,7 @@ Book-focused blog platform with user registration and post creation.
 🖼️ **Screenshot:**  
 ![Blog Interface](https://github.com/user-attachments/assets/8307dc87-02a3-4e27-a975-c9bd4ea6c563)
 
-[🔼 Back to top](#-my-projects-portfolio)
+[🔼 Back to top](#my-projects-portfolio)
 
 ---
 
@@ -100,7 +100,7 @@ Real-time text analysis tool counting words, sentences, characters, and more.
 🖼️ **Screenshot:**  
 ![Counter Interface](https://github.com/user-attachments/assets/fc3a7b6f-e152-4aca-9894-fadf7d2fa1bf)
 
-[🔼 Back to top](#-my-projects-portfolio)
+[🔼 Back to top](#my-projects-portfolio)
 
 ---
 
@@ -117,7 +117,7 @@ Responsive multi-page coffee shop website.
 ![Homepage](https://github.com/user-attachments/assets/09339ed7-856e-4a36-a6d0-0bbb65eacf44)
 ![Menu](https://github.com/user-attachments/assets/6bc884fe-04b7-4bf1-a73a-fa0eb2844cf2)
 
-[🔼 Back to top](#-my-projects-portfolio)
+[🔼 Back to top](#my-projects-portfolio)
 
 ---
 
@@ -130,7 +130,7 @@ Single-page creative website design.
 🖼️ **Screenshot:**  
 ![Bouncy Page](https://github.com/Marta109/Marta109.github.io/assets/71411783/9d390600-60b3-4b6c-aae8-7ab539fa9ace)
 
-[🔼 Back to top](#-my-projects-portfolio)
+[🔼 Back to top](#my-projects-portfolio)
 
 ---
 
@@ -143,7 +143,7 @@ Single-page travel-themed website.
 🖼️ **Screenshot:**  
 ![Travel Page](https://github.com/Marta109/Marta109.github.io/assets/71411783/9f073a9a-d7c7-4e0a-9ccc-5ea1e77231f2)
 
-[🔼 Back to top](#-my-projects-portfolio)
+[🔼 Back to top](#my-projects-portfolio)
 
 ---
 
@@ -156,7 +156,7 @@ Interactive image slider with keyboard/mouse controls.
 🖼️ **Screenshot:**  
 ![Slider Interface](https://github.com/user-attachments/assets/8eb16ee9-949a-4dc5-a6b2-958e74a58564)
 
-[🔼 Back to top](#-my-projects-portfolio)
+[🔼 Back to top](#my-projects-portfolio)
 ---
 
 ## 🙋‍♀️ About Me 
@@ -168,7 +168,7 @@ Hi, I'm **Marta Hayrapetyan** — a frontend developer passionate about building
 **Let's connect:**  
 [LinkedIn](https://www.linkedin.com/in/mh-marta-hayrapetyan/) | [Email](mailto:marta.hayrapetyan.a@gmail.com)
 
-[🔼 Back to top](#-my-projects-portfolio)
+[🔼 Back to top](#my-projects-portfolio)
 
 ---
 
