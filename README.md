@@ -29,7 +29,7 @@ Welcome to my portfolio! Here you can explore projects I've created using differ
 Assemble sentences from jumbled words with different difficulty levels, pronunciation, and hints. Inspired by Lingualeo's "Phrase Builder".
 
 🔗 **Links:**  
-- [Live Demo](https://rolling-scopes-school.github.io/marta109-JSFE2023Q4/rss-puzzle/index.html)
+- [Live Demo](https://rolling-scopes-school.github.io/marta109-JSFE2023Q4/rss-puzzle/index.html){:target="_blank"}
 - [Repository](https://github.com/Marta109/RSS-Puzzle)
 - [Task Description](https://github.com/rolling-scopes-school/tasks/tree/master/stage2/tasks/puzzle)
 
