@@ -16,8 +16,8 @@ Welcome to my portfolio! Here you can explore projects I've created using differ
 
 ## ⚛️ React Projects
 
-### 🧩 RSS Puzzle (React Edition) {#-rss-puzzle-react-edition}
-**Modern rebuild of English learning game**  
+### 🧩 RSS Puzzle (React Edition)
+*Modern rebuild of English learning game*
 Players build English sentences from shuffled words with multiple difficulty levels and hint types (image, translation, pronunciation).  
 Each completed round reveals a part of a famous painting — a unique mix of language learning and cultural discovery.
 *Enhanced version of original JavaScript project with:*
@@ -43,7 +43,6 @@ Each completed round reveals a part of a famous painting — a unique mix of lan
 ## 💻 JavaScript Projects
 
 ### 🧩 RSS Puzzle (JavaScript)
-*Original version - [see React rewrite](#-rss-puzzle-react-edition)*
 **Interactive English learning game**  
 Assemble sentences from jumbled words with different difficulty levels, pronunciation, and hints. Inspired by Lingualeo's "Phrase Builder".
 
