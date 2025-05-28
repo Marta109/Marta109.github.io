@@ -70,7 +70,7 @@ Classic word guessing game where you save the stick figure by guessing letters.
 Customizable version with variable board size (3-20).
 
 🔗 **Links:**  
-- [Live Demo](https://marta109.github.io/Tic-Tac-Toe/)
+- [Live Demo](https://marta109.github.io/Tic---Tac---Toe/)
 - [Repository ](https://github.com/Marta109/Tic---Tac---Toe)
 
 🖼️ **Screenshots:**  
