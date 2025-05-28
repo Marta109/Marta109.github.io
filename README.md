@@ -82,7 +82,7 @@ Customizable version with variable board size (3-20).
 Book-focused blog platform with user registration and post creation.
 
 🔗 **Links:**  
-- [Repository ]([https://marta109.github.io/Blog-Post/index.html](https://github.com/Marta109/Blog-Post))
+- [Repository ](https://github.com/Marta109/Blog-Post)
 - [Live Demo](https://marta109.github.io/Blog-Post/index.html)
 
 🖼️ **Screenshot:**  
