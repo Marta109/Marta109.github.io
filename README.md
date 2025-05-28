@@ -55,6 +55,7 @@ Classic word guessing game where you save the stick figure by guessing letters.
 
 🔗 **Links:**  
 - [Task Description](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/tasks/hangman)  
+- [Repository](https://github.com/Marta109/Hangman)
 - [Live Demo](https://rolling-scopes-school.github.io/marta109-JSFE2023Q4/hangman/index.html)
 
 🖼️ **Screenshot:**  
