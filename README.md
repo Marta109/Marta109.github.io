@@ -9,7 +9,7 @@ Welcome to my portfolio! Here you can explore projects I've created using differ
 - [🎨 HTML/CSS Projects](#-htmlcss-projects)
 - [🙋‍♀️ About Me](#about-me)
 
-> 📘 _The following projects marked with "Task Description" were created as part of the [The Rolling Scopes School](https://app.rs.school/) course.  
+> 📘 _The following projects marked with "Task Description" were created as part of the [The Rolling Scopes School](https://rs.school/community#about-school) course.  
 > Each task had strict code quality and functionality requirements, deadlines, and was reviewed by peers or mentors._
 
 
