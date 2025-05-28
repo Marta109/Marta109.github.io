@@ -1,7 +1,4 @@
 # 🚀 My Projects Portfolio
-- <a href="https://marta109.github.io/Bouncy/" target="_blank" rel="noopener noreferrer">Live Demo</a>
-
-
 Welcome to my portfolio! Here you can explore projects I've created using different technologies. They are organized into three main categories:
 
 ## 📚 Contents
