@@ -26,6 +26,7 @@ Assemble sentences from jumbled words with different difficulty levels, pronunci
 
 🔗 **Links:**  
 - [Live Demo](https://rolling-scopes-school.github.io/marta109-JSFE2023Q4/rss-puzzle/index.html)
+- [Repository](https://github.com/Marta109/RSS-Puzzle)
 - [Task Description](https://github.com/rolling-scopes-school/tasks/tree/master/stage2/tasks/puzzle)
 
 🖼️ **Screenshots:**  
