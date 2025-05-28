@@ -112,6 +112,7 @@ Responsive multi-page coffee shop website.
 
 🔗 **Links:**  
 - [Task Description](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/coffee-house/coffee-house.md)
+- [Repository ](https://github.com/Marta109/Coffee-house)
 - [Live Demo](https://rolling-scopes-school.github.io/marta109-JSFE2023Q4/coffee-house/home.html)
 
 🖼️ **Screenshots:**  
