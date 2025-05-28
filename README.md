@@ -15,7 +15,26 @@ Welcome to my portfolio! Here you can explore projects I've created using differ
 ---
 
 ## ⚛️ React Projects
-*Coming soon!*  
+
+### 🧩 RSS Puzzle (React Edition) {#-rss-puzzle-react-edition}
+**Modern rebuild of English learning game**  
+Players build English sentences from shuffled words with multiple difficulty levels and hint types (image, translation, pronunciation).  
+Each completed round reveals a part of a famous painting — a unique mix of language learning and cultural discovery.
+*Enhanced version of original JavaScript project with:*
+- React 18 + Vite architecture
+- Improved artwork discovery system
+- Advanced learning analytics
+
+🔗 **Links:**  
+- [Live Demo](https://react-puzzle-rust.vercel.app/)
+- [Repository](https://github.com/Marta109/React-Puzzle/)  
+- [Original Version](#-rss-puzzle) 
+
+🖼️ **Screenshot:**  
+![Game Statistics](https://github.com/user-attachments/assets/ec4dfcd3-66b7-421b-978b-42a6c80abb88)
+![Screenshot_12](https://github.com/user-attachments/assets/7350c6d3-037b-4c62-8579-c9c26a27ed25)
+![Screenshot_4](https://github.com/user-attachments/assets/531b3403-3fd7-4e0e-be3e-f39bf09fe499)
+
 
 [🔼 Back to top](#-my-projects-portfolio)
 
@@ -23,7 +42,8 @@ Welcome to my portfolio! Here you can explore projects I've created using differ
 
 ## 💻 JavaScript Projects
 
-### 🧩 RSS Puzzle
+### 🧩 RSS Puzzle (JavaScript)
+*Original version - [see React rewrite](#-rss-puzzle-react-edition)*
 **Interactive English learning game**  
 Assemble sentences from jumbled words with different difficulty levels, pronunciation, and hints. Inspired by Lingualeo's "Phrase Builder".
 
