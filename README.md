@@ -28,7 +28,6 @@ Each completed round reveals a part of a famous painting — a unique mix of lan
 🔗 **Links:**  
 - [Live Demo](https://react-puzzle-rust.vercel.app/)
 - [Repository](https://github.com/Marta109/React-Puzzle/)  
-- [Original Version](#-rss-puzzle) 
 
 🖼️ **Screenshot:**  
 ![Game Statistics](https://github.com/user-attachments/assets/ec4dfcd3-66b7-421b-978b-42a6c80abb88)
