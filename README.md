@@ -147,6 +147,7 @@ Single-page travel-themed website.
 
 🔗 **Links:**  
 - [Live Demo](https://marta109.github.io/Travel/)
+- [Repository](https://github.com/Marta109/Travel)
 
 🖼️ **Screenshot:**  
 ![Travel Page](https://github.com/Marta109/Marta109.github.io/assets/71411783/9f073a9a-d7c7-4e0a-9ccc-5ea1e77231f2)
