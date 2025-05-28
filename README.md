@@ -95,19 +95,6 @@ Book-focused blog platform with user registration and post creation.
 
 ---
 
-### 🔢 Word Counter
-Real-time text analysis tool counting words, sentences, characters, and more.
-
-🔗 **Links:**  
-- [Live Demo](https://marta109.github.io/Word_Counter/)
-
-🖼️ **Screenshot:**  
-![Counter Interface](https://github.com/user-attachments/assets/fc3a7b6f-e152-4aca-9894-fadf7d2fa1bf)
-
-[🔼 Back to top](#-my-projects-portfolio)
-
----
-
 ## 🎨 HTML/CSS Projects
 
 ### ☕ Coffee House
@@ -165,6 +152,20 @@ Interactive image slider with keyboard/mouse controls.
 
 🖼️ **Screenshot:**  
 ![Slider Interface](https://github.com/user-attachments/assets/8eb16ee9-949a-4dc5-a6b2-958e74a58564)
+
+[🔼 Back to top](#-my-projects-portfolio)
+
+---
+
+### 🔢 Word Counter
+Real-time text analysis tool counting words, sentences, characters, and more.
+
+🔗 **Links:**  
+- [Live Demo](https://marta109.github.io/Word_Counter/)
+- [Repository ](https://github.com/Marta109/word-counter)
+
+🖼️ **Screenshot:**  
+![Counter Interface](https://github.com/user-attachments/assets/fc3a7b6f-e152-4aca-9894-fadf7d2fa1bf)
 
 [🔼 Back to top](#-my-projects-portfolio)
 
