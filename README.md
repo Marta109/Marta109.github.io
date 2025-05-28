@@ -71,6 +71,7 @@ Customizable version with variable board size (3-20).
 
 🔗 **Links:**  
 - [Live Demo](https://marta109.github.io/Tic-Tac-Toe/)
+- [Repository ](https://github.com/Marta109/Tic---Tac---Toe)
 
 🖼️ **Screenshots:**  
 ![Small Board](https://github.com/user-attachments/assets/81b25640-b833-4008-b8d3-2eaa48c552fd)
