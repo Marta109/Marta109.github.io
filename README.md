@@ -159,6 +159,7 @@ Interactive image slider with keyboard/mouse controls.
 
 🔗 **Links:**  
 - [Live Demo](https://marta109.github.io/Slider/)
+- [Repository](https://github.com/Marta109/Slider)
 
 🖼️ **Screenshot:**  
 ![Slider Interface](https://github.com/user-attachments/assets/8eb16ee9-949a-4dc5-a6b2-958e74a58564)
