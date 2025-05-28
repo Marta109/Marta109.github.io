@@ -25,8 +25,8 @@ Welcome to my portfolio! Here you can explore projects I've created using differ
 Assemble sentences from jumbled words with different difficulty levels, pronunciation, and hints. Inspired by Lingualeo's "Phrase Builder".
 
 🔗 **Links:**  
-- [Task Description](https://github.com/rolling-scopes-school/tasks/tree/master/stage2/tasks/puzzle)
 - [Live Demo](https://rolling-scopes-school.github.io/marta109-JSFE2023Q4/rss-puzzle/index.html)
+- [Task Description](https://github.com/rolling-scopes-school/tasks/tree/master/stage2/tasks/puzzle)
 
 🖼️ **Screenshots:**  
 ![Gameplay](https://github.com/rolling-scopes-school/marta109-JSFE2023Q4/assets/71411783/14c75b29-a6ab-4fbd-80ef-7e456c8da5ad)
@@ -40,9 +40,9 @@ Assemble sentences from jumbled words with different difficulty levels, pronunci
 **Logic puzzle game** where you reveal hidden pictures using number clues.
 
 🔗 **Links:**  
-- [Task Description](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/nonograms)
-- [Repository](https://github.com/Marta109/Nonograms)
 - [Live Demo](https://rolling-scopes-school.github.io/marta109-JSFE2023Q4/nonograms/index.html)
+- [Repository](https://github.com/Marta109/Nonograms)
+- [Task Description](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/nonograms)
 
 🖼️ **Screenshot:**  
 ![Game Interface](https://github.com/rolling-scopes-school/marta109-JSFE2023Q4/assets/71411783/4d93dee3-12ad-4ef8-80a8-b6f355af06f3)
@@ -55,9 +55,9 @@ Assemble sentences from jumbled words with different difficulty levels, pronunci
 Classic word guessing game where you save the stick figure by guessing letters.
 
 🔗 **Links:**  
-- [Task Description](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/tasks/hangman)  
-- [Repository](https://github.com/Marta109/Hangman)
 - [Live Demo](https://rolling-scopes-school.github.io/marta109-JSFE2023Q4/hangman/index.html)
+- [Repository](https://github.com/Marta109/Hangman)
+- [Task Description](https://github.com/rolling-scopes-school/tasks/tree/master/stage1/tasks/hangman)  
 
 🖼️ **Screenshot:**  
 ![Game Screen](https://github.com/rolling-scopes-school/marta109-JSFE2023Q4/assets/71411783/4b80f1a1-b46e-43cd-b4e9-e5bc52407c54)
@@ -83,9 +83,9 @@ Customizable version with variable board size (3-20).
 ### 📝 Blog-Post
 Book-focused blog platform with user registration and post creation.
 
+- [Live Demo](https://marta109.github.io/Blog-Post/index.html)
 🔗 **Links:**  
 - [Repository ](https://github.com/Marta109/Blog-Post)
-- [Live Demo](https://marta109.github.io/Blog-Post/index.html)
 
 🖼️ **Screenshot:**  
 ![Blog Interface](https://github.com/user-attachments/assets/8307dc87-02a3-4e27-a975-c9bd4ea6c563)
@@ -113,9 +113,9 @@ Real-time text analysis tool counting words, sentences, characters, and more.
 Responsive multi-page coffee shop website.
 
 🔗 **Links:**  
-- [Task Description](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/coffee-house/coffee-house.md)
-- [Repository ](https://github.com/Marta109/Coffee-house)
 - [Live Demo](https://rolling-scopes-school.github.io/marta109-JSFE2023Q4/coffee-house/home.html)
+- [Repository ](https://github.com/Marta109/Coffee-house)
+- [Task Description](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/coffee-house/coffee-house.md)
 
 🖼️ **Screenshots:**  
 ![Homepage](https://github.com/user-attachments/assets/09339ed7-856e-4a36-a6d0-0bbb65eacf44)
@@ -131,8 +131,8 @@ Responsive multi-page coffee shop website.
 Single-page creative website design.
 
 🔗 **Links:**  
-- [Repository ](https://github.com/Marta109/Bouncy)
 - [Live Demo](https://marta109.github.io/Bouncy/)
+- [Repository ](https://github.com/Marta109/Bouncy)
 
 🖼️ **Screenshot:**  
 ![Bouncy Page](https://github.com/Marta109/Marta109.github.io/assets/71411783/9d390600-60b3-4b6c-aae8-7ab539fa9ace)
