@@ -41,6 +41,7 @@ Assemble sentences from jumbled words with different difficulty levels, pronunci
 
 🔗 **Links:**  
 - [Task Description](https://github.com/rolling-scopes-school/tasks/tree/master/tasks/nonograms)
+- [Repository](https://github.com/Marta109/Nonograms)
 - [Live Demo](https://rolling-scopes-school.github.io/marta109-JSFE2023Q4/nonograms/index.html)
 
 🖼️ **Screenshot:**  
