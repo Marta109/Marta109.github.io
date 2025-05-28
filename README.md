@@ -118,6 +118,8 @@ Responsive multi-page coffee shop website.
 🖼️ **Screenshots:**  
 ![Homepage](https://github.com/user-attachments/assets/09339ed7-856e-4a36-a6d0-0bbb65eacf44)
 ![Menu](https://github.com/user-attachments/assets/6bc884fe-04b7-4bf1-a73a-fa0eb2844cf2)
+![370425705-021c6514-64a1-4663-b241-51b6466a1d1f](https://github.com/user-attachments/assets/d68715bc-69f8-4bf2-8147-a7081142659c)
+
 
 [🔼 Back to top](#-my-projects-portfolio)
 
