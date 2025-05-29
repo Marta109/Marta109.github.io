@@ -276,8 +276,6 @@ Real-time text analysis tool counting words, sentences, characters, and more.
 
 Hi, I'm **Marta** — a frontend developer passionate about building intuitive interfaces with:
 
-`JavaScript` | `React` | `HTML/CSS` | `Git`
-
 **Let's connect:**  
 [LinkedIn](https://www.linkedin.com/in/mh-marta-hayrapetyan/) | [Email](mailto:marta.hayrapetyan.a@gmail.com)
 
