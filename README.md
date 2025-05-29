@@ -92,7 +92,6 @@ React-powered to-do list with full CRUD operations, filtering, and external data
 🖼️ **Screenshots:**  
 <div style="display: flex; flex-wrap: wrap; gap: 10px; margin: 15px 0;">
   <img src="https://github.com/user-attachments/assets/19072fb2-ede0-4883-9fc7-fb83f0440f3d" width="45%" alt="Todo list main view">
-  <img src="https://github.com/user-attachments/assets/15e734f8-a90f-4fda-86d0-8d194ac6cb14" width="45%" alt="Task editing interface">
 </div>
 
 [🔼 Back to top](#-my-projects-portfolio)
