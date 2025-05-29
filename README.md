@@ -52,7 +52,6 @@ With each round, the number of cards increases (3 → 4 → 5...), but the time 
 🖼️ **Screenshots:**  
 ![Screenshot_4](https://github.com/user-attachments/assets/8339ba4e-7e00-4c76-880e-d30bc5b52c5f)  
 ![Screenshot_3](https://github.com/user-attachments/assets/038af86e-65fa-4086-861f-cff28c289c74)  
-![Screenshot_1](https://github.com/user-attachments/assets/d5787751-69fe-47a3-bdfc-3c904fdfcc75)
 
 [🔼 Back to top](#-my-projects-portfolio)
 
