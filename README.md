@@ -39,6 +39,25 @@ Each completed round reveals a part of a famous painting — a unique mix of lan
 
 ---
 
+### 🧠 Memory Game  
+**Interactive memory challenge** built with React.  
+Choose a theme (animals, flowers, tools, etc.), memorize the position of the pictures in 10 seconds, then guess where they were.
+With each round, the number of cards increases (3 → 4 → 5...), but the time stays the same!
+🖼️ Images are randomly loaded from an API, and hovering over them shows a description. The game features sound effects.
+
+🔗 **Links:**  
+- [Live Demo](https://marta109.github.io/Memory-game/)  
+- [Repository](https://github.com/Marta109/Memory-game)
+
+🖼️ **Screenshots:**  
+![Screenshot_4](https://github.com/user-attachments/assets/8339ba4e-7e00-4c76-880e-d30bc5b52c5f)  
+![Screenshot_3](https://github.com/user-attachments/assets/038af86e-65fa-4086-861f-cff28c289c74)  
+![Screenshot_1](https://github.com/user-attachments/assets/d5787751-69fe-47a3-bdfc-3c904fdfcc75)
+
+[🔼 Back to top](#-my-projects-portfolio)
+
+---
+
 ## 💻 JavaScript Projects
 
 ### 🧩 RSS Puzzle (JavaScript)
