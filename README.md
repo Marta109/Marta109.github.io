@@ -46,13 +46,14 @@ Each completed round reveals a part of a famous painting — a unique mix of lan
 - [Live Demo](https://marta109.github.io/Movie-Bookmarks)
 - [Repository](https://github.com/Marta109/Movie-Bookmarks)
 
-## Key Features
+Key Features
 - Movie search and detailed information viewing
 - Save your favorite movies to bookmarks
 - Quiz section — questions about movies, actors, and genres
 - Uses external API to fetch movie information
 
-### 🖼️ Screenshots
+  
+🖼️ **Screenshots:** 
 <div style="display: flex; flex-wrap: wrap; gap: 10px; margin: 15px 0;">
   <img src="https://github.com/user-attachments/assets/98bcdbab-1d0e-40fc-8b04-5936180154f1" width="30%" alt="Movie search interface">
   <img src="https://github.com/user-attachments/assets/9499b693-9f85-49c0-abec-4e36e50acfab" width="30%" alt="Movie details view">
