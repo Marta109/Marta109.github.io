@@ -42,7 +42,7 @@ Each completed round reveals a part of a famous painting — a unique mix of lan
 
 **Interactive movie discovery platform** with bookmarking system and film trivia quiz. Built with React and powered by TMDB API.
 
-### 🔗 Links
+🔗 **Links:**  
 - [Live Demo](https://marta109.github.io/Movie-Bookmarks)
 - [Repository](https://github.com/Marta109/Movie-Bookmarks)
 
