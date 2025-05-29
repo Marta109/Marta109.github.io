@@ -15,7 +15,7 @@ Welcome to my portfolio! Here you can explore projects I've created using differ
 
 ## ⚛️ React Projects
 
-## 🧩 **RSS Puzzle (React Edition)**
+### 🧩 **RSS Puzzle (React Edition)**
 *Modern rebuild of English learning game*
 Players build English sentences from shuffled words with multiple difficulty levels and hint types (image, translation, pronunciation).  
 Each completed round reveals a part of a famous painting — a unique mix of language learning and cultural discovery.
@@ -38,7 +38,7 @@ Each completed round reveals a part of a famous painting — a unique mix of lan
 [🔼 Back to top](#-my-projects-portfolio)
 
 ---
-## 🎬 **MovieBookmarks**
+### 🎬 **MovieBookmarks**
 
 **Interactive movie discovery platform** with bookmarking system and film trivia quiz. Built with React and powered by TMDB API.
 
@@ -63,7 +63,7 @@ Each completed round reveals a part of a famous painting — a unique mix of lan
 
 ---
 
-## 🧠 **Memory Game**
+### 🧠 **Memory Game**
 **Interactive memory challenge** built with React.  
 Choose a theme (animals, flowers, tools, etc.), memorize the position of the pictures in 10 seconds, then guess where they were.
 
@@ -80,7 +80,7 @@ Choose a theme (animals, flowers, tools, etc.), memorize the position of the pic
 [🔼 Back to top](#-my-projects-portfolio)
 
 ---
-## ✅ **ToDo App**
+### ✅ **ToDo App**
 
 **Task management made simple.**  
 React-powered to-do list with full CRUD operations, filtering, and external data fetching.
@@ -100,7 +100,7 @@ React-powered to-do list with full CRUD operations, filtering, and external data
 
 ## 💻 JavaScript Projects
 
-## 🧩 **RSS Puzzle (JavaScript)**
+### 🧩 **RSS Puzzle (JavaScript)**
 **Interactive English learning game**  
 Assemble sentences from jumbled words with different difficulty levels, pronunciation, and hints.
 
