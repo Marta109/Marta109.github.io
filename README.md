@@ -79,6 +79,22 @@ With each round, the number of cards increases (3 → 4 → 5...), but the time 
 [🔼 Back to top](#-my-projects-portfolio)
 
 ---
+# ✅ ToDo App
+
+**Task management made simple.**  
+React-powered to-do list with full CRUD operations, filtering, and external data fetching.
+
+🔗 **Links:**  
+- [Live Demo](https://marta109.github.io/Todo/)  
+- [Repository](https://github.com/Marta109/Todo)
+
+🖼️ **Screenshots:**  
+![Screenshot_1](https://github.com/user-attachments/assets/19072fb2-ede0-4883-9fc7-fb83f0440f3d)
+![Screenshot_2](https://github.com/user-attachments/assets/15e734f8-a90f-4fda-86d0-8d194ac6cb14)
+
+[🔼 Back to top](#-my-projects-portfolio)
+
+---
 
 ## 💻 JavaScript Projects
 
