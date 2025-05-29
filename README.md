@@ -4,7 +4,7 @@ Welcome to my portfolio! Here you can explore projects I've created using differ
 ## 📚 Contents
 
 - [⚛️ React Projects](#-react-projects)
-- [💻 JavaScript Projects](#-javascript-projects)
+- [💻 Vanilla JavaScript Projects](#-vanilla-javascript-projects)
 - [🎨 HTML/CSS Projects](#-htmlcss-projects)
 - [🙋‍♀️ About Me](#about-me)
 
@@ -98,7 +98,7 @@ React-powered to-do list with full CRUD operations, filtering, and external data
 
 ---
 
-## 💻 JavaScript Projects
+## 💻 Vanilla JavaScript Projects
 
 ### 🧩 **RSS Puzzle (JavaScript)**
 **Interactive English learning game**  
